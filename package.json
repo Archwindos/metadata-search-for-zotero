@@ -1,0 +1,17 @@
+{
+  "name": "metadata-search-for-zotero",
+  "version": "0.4.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Paper metadata search and PDF recovery for Zotero 10",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "build": "node scripts/build.cjs",
+    "test:live": "node scripts/live.cjs"
+  },
+  "devDependencies": {
+    "fflate": "0.8.2",
+    "linkedom": "0.18.12"
+  },
+  "engines": { "node": ">=20" }
+}

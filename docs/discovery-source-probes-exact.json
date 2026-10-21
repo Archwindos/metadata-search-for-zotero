@@ -1,0 +1,84 @@
+{
+  "at": "2026-10-13T13:25:46.364Z",
+  "results": [
+    {
+      "name": "openreview-exact",
+      "url": "https://api2.openreview.net/notes/search?term=LoRA%3A%20Low-Rank%20Adaptation%20of%20Large%20Language%20Models&type=exact&content=title&source=forum&limit=20",
+      "status": 200,
+      "bytes": 22,
+      "detail": []
+    },
+    {
+      "name": "iclr",
+      "url": "https://iclr.cc/virtual/2022/poster/6319",
+      "status": 200,
+      "bytes": 85719
+    },
+    {
+      "name": "bing-swin",
+      "url": "https://www.bing.com/search?format=rss&q=%22Swin%20Transformer%3A%20Hierarchical%20Vision%20Transformer%20Using%20Shifted%20Windows%22",
+      "status": 200,
+      "bytes": 3476
+    },
+    {
+      "name": "openreview-modern",
+      "url": "https://api2.openreview.net/notes/search?term=DoRA%3A%20Weight-Decomposed%20Low-Rank%20Adaptation&type=exact&content=title&source=forum&limit=20",
+      "status": 200,
+      "bytes": 7137,
+      "detail": [
+        {
+          "id": "9oiguzjf7D",
+          "title": {
+            "value": "DoRA: Weight-Decomposed Low-Rank Adaptation"
+          },
+          "venue": {
+            "value": "ICML 2024"
+          },
+          "venueid": {
+            "value": "dblp.org/conf/ICML/2024"
+          },
+          "invitations": [
+            "DBLP.org/-/Record",
+            "DBLP.org/-/Edit",
+            "DBLP.org/-/Author_Coreference"
+          ]
+        },
+        {
+          "id": "EBFgWCeylF",
+          "title": {
+            "value": "DoRA: Weight-Decomposed Low-Rank Adaptation"
+          },
+          "venue": {
+            "value": "CoRR 2024"
+          },
+          "venueid": {
+            "value": "dblp.org/journals/CORR/2024"
+          },
+          "invitations": [
+            "DBLP.org/-/Record",
+            "DBLP.org/-/Edit",
+            "DBLP.org/-/Author_Coreference"
+          ]
+        },
+        {
+          "id": "3d5CIRG1n2",
+          "title": {
+            "value": "DoRA: Weight-Decomposed Low-Rank Adaptation"
+          },
+          "venue": {
+            "value": "ICML 2024 Oral"
+          },
+          "venueid": {
+            "value": "ICML.cc/2024/Conference"
+          },
+          "invitations": [
+            "ICML.cc/2024/Conference/-/Submission",
+            "ICML.cc/2024/Conference/-/Post_Submission",
+            "ICML.cc/2024/Conference/-/Edit",
+            "ICML.cc/2024/Conference/Submission455/-/Camera_Ready_Revision"
+          ]
+        }
+      ]
+    }
+  ]
+}

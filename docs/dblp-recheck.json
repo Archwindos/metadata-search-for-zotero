@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-12T02:03:59.633Z",
+  "title": "Memory Mosaics at scale",
+  "requests": [
+    {
+      "url": "https://dblp.org/search/publ/api?q=Memory%20Mosaics%20at%20scale&format=json&h=8",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8"
+    }
+  ],
+  "candidates": [],
+  "statuses": [
+    {
+      "source": "DBLP",
+      "ok": false,
+      "message": "需要网站人机验证；未绕过验证。可暂时关闭此来源。"
+    }
+  ],
+  "query": {
+    "kind": "title",
+    "value": "Memory Mosaics at scale"
+  }
+}

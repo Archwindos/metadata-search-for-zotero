@@ -1,0 +1,365 @@
+{
+  "at": "2026-10-11T03:03:46.756Z",
+  "runtime": "Node.js",
+  "neuripsMetadataMode": "embedded-page-metadata-only",
+  "limitation": "This runner has no Zotero BibTeX importer. Page publication dates can differ from official citation years. See native-results.json for the packaged plugin and installation-results.json for the actual library write.",
+  "cases": [
+    {
+      "title": "Memory Mosaics at scale",
+      "statuses": [
+        {
+          "source": "arXiv",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "source": "DBLP",
+          "ok": false,
+          "message": "需要网站人机验证；未绕过验证。可暂时关闭此来源。"
+        },
+        {
+          "source": "Crossref",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "source": "NeurIPS",
+          "ok": true,
+          "count": 1
+        }
+      ],
+      "candidates": [
+        {
+          "source": "NeurIPS",
+          "title": "Memory Mosaics at scale",
+          "date": "2025",
+          "type": "conferencePaper",
+          "score": 1
+        },
+        {
+          "source": "Crossref",
+          "title": "Memory Mosaics at scale",
+          "date": "2025",
+          "type": "conferencePaper",
+          "score": 1
+        },
+        {
+          "source": "arXiv",
+          "title": "Memory Mosaics at scale",
+          "date": "2025-07-04",
+          "type": "preprint",
+          "score": 1
+        },
+        {
+          "source": "Crossref",
+          "title": "Mosaics",
+          "date": "1965-5",
+          "type": "journalArticle",
+          "score": 0.4
+        },
+        {
+          "source": "Crossref",
+          "title": "Information density of geomorphometric scale mosaics",
+          "date": "2026",
+          "type": "preprint",
+          "score": 0.4
+        }
+      ],
+      "official": {
+        "source": "NeurIPS",
+        "item": {
+          "itemType": "conferencePaper",
+          "title": "Memory Mosaics at scale",
+          "creators": [
+            {
+              "creatorType": "author",
+              "firstName": "Jianyu",
+              "lastName": "Zhang"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Leon",
+              "lastName": "Bottou"
+            }
+          ],
+          "proceedingsTitle": "Advances in Neural Information Processing Systems",
+          "date": "2026-04-23",
+          "volume": "38",
+          "DOI": "10.52202/085713-1299",
+          "pages": "38929-38956",
+          "abstractNote": "Memory Mosaics, networks of associative memories, have demonstrated appealing compositional and in-context learning capabilities on medium-scale networks (GPT-2 scale) and synthetic small datasets. This work shows that these favorable properties remain when we scale memory mosaics to large language model sizes (llama-8B scale) and real-world datasets. To this end, we scale memory mosaics to 10B size, we train them on one trillion tokens, we introduce a couple architectural modifications (memory mosaics v2), we assess their capabilities across three evaluation dimensions: training-knowledge storage, new-knowledge storage, and in-context learning. Throughout the evaluation, memory mosaics v2 match transformers on the learning of training knowledge (first dimension) and significantly outperforms transformers on carrying out new tasks at inference time (second and third dimensions). These improvements cannot be easily replicated by simply increasing the training data for transformers. A memory mosaics v2 trained on one trillion tokens still perform better on these tasks than a transformer trained on eight trillion tokens.",
+          "conferenceName": "NeurIPS 2025",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3767842e2ebee900236f534855aa2c36-Abstract-Conference.html",
+          "libraryCatalog": "NeurIPS Proceedings"
+        },
+        "sourceURL": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3767842e2ebee900236f534855aa2c36-Abstract-Conference.html",
+        "resolved": true,
+        "warnings": []
+      }
+    },
+    {
+      "title": "Attention Is All You Need",
+      "statuses": [
+        {
+          "source": "arXiv",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "source": "Crossref",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "source": "DBLP",
+          "ok": false,
+          "message": "需要网站人机验证；未绕过验证。可暂时关闭此来源。"
+        },
+        {
+          "source": "NeurIPS",
+          "ok": true,
+          "count": 3
+        }
+      ],
+      "candidates": [
+        {
+          "source": "NeurIPS",
+          "title": "Attention is All you Need",
+          "date": "2017",
+          "type": "conferencePaper",
+          "score": 1
+        },
+        {
+          "source": "Crossref",
+          "title": "Attention Is All You Need",
+          "date": "2025-10-31",
+          "type": "bookSection",
+          "score": 1
+        },
+        {
+          "source": "Crossref",
+          "title": "Is Attention All You Need?",
+          "date": "2025",
+          "type": "bookSection",
+          "score": 1
+        },
+        {
+          "source": "arXiv",
+          "title": "Attention Is All You Need",
+          "date": "2017-06-12",
+          "type": "preprint",
+          "score": 1
+        },
+        {
+          "source": "Crossref",
+          "title": "Attention Is All You Need",
+          "date": "2025-8-23",
+          "type": "preprint",
+          "score": 1
+        },
+        {
+          "source": "Crossref",
+          "title": "Attention Is All You Need",
+          "date": "2025-8-23",
+          "type": "preprint",
+          "score": 1
+        },
+        {
+          "source": "Crossref",
+          "title": "Attention Is All You Need",
+          "date": "2025-11-13",
+          "type": "preprint",
+          "score": 1
+        },
+        {
+          "source": "Crossref",
+          "title": "Attention Is All You Need",
+          "date": "2025-8-23",
+          "type": "preprint",
+          "score": 1
+        },
+        {
+          "source": "Crossref",
+          "title": "Attention Is All You Need",
+          "date": "2025-8-23",
+          "type": "preprint",
+          "score": 1
+        },
+        {
+          "source": "Crossref",
+          "title": "Attention Is All You Need",
+          "date": "2025-8-23",
+          "type": "preprint",
+          "score": 1
+        },
+        {
+          "source": "arXiv",
+          "title": "Not All Attention Is All You Need",
+          "date": "2021-04-10",
+          "type": "preprint",
+          "score": 0.9090909090909091
+        },
+        {
+          "source": "NeurIPS",
+          "title": "Tensor Product Attention Is All You Need",
+          "date": "2025",
+          "type": "conferencePaper",
+          "score": 0.8333333333333334
+        },
+        {
+          "source": "arXiv",
+          "title": "Tensor Product Attention Is All You Need",
+          "date": "2025-01-11",
+          "type": "preprint",
+          "score": 0.8333333333333334
+        },
+        {
+          "source": "arXiv",
+          "title": "Element-wise Attention Is All You Need",
+          "date": "2025-01-10",
+          "type": "preprint",
+          "score": 0.8333333333333334
+        },
+        {
+          "source": "arXiv",
+          "title": "Attention is All You Need in Speech Separation",
+          "date": "2020-10-25",
+          "type": "preprint",
+          "score": 0.7692307692307693
+        },
+        {
+          "source": "arXiv",
+          "title": "Some Attention is All You Need for Retrieval",
+          "date": "2025-10-21",
+          "type": "preprint",
+          "score": 0.7692307692307693
+        },
+        {
+          "source": "arXiv",
+          "title": "Attention is all you need to solve chiral superconductivity",
+          "date": "2025-09-03",
+          "type": "preprint",
+          "score": 0.7142857142857143
+        },
+        {
+          "source": "arXiv",
+          "title": "TransMLA: Multi-Head Latent Attention Is All You Need",
+          "date": "2025-02-11",
+          "type": "preprint",
+          "score": 0.7142857142857143
+        },
+        {
+          "source": "NeurIPS",
+          "title": "Text-Guided Attention is All You Need for Zero-Shot Robustness in Vision-Language Models",
+          "date": "2024",
+          "type": "conferencePaper",
+          "score": 0.5
+        }
+      ],
+      "official": {
+        "source": "NeurIPS",
+        "item": {
+          "itemType": "conferencePaper",
+          "title": "Attention is All you Need",
+          "creators": [
+            {
+              "creatorType": "author",
+              "firstName": "Ashish",
+              "lastName": "Vaswani"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Noam",
+              "lastName": "Shazeer"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Niki",
+              "lastName": "Parmar"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Jakob",
+              "lastName": "Uszkoreit"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Llion",
+              "lastName": "Jones"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Aidan N.",
+              "lastName": "Gomez"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Łukasz",
+              "lastName": "Kaiser"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Illia",
+              "lastName": "Polosukhin"
+            }
+          ],
+          "proceedingsTitle": "Advances in Neural Information Processing Systems",
+          "date": "2017",
+          "volume": "30",
+          "DOI": "",
+          "pages": "",
+          "abstractNote": "The dominant sequence transduction models are based on complex recurrent orconvolutional neural networks in an encoder and decoder configuration. The best performing such models also connect the encoder and decoder through an attentionm echanisms. We propose a novel, simple network architecture based solely onan attention mechanism, dispensing with recurrence and convolutions entirely.Experiments on two machine translation tasks show these models to be superiorin quality while being more parallelizable and requiring significantly less timeto train. Our single model with 165 million parameters, achieves 27.5 BLEU onEnglish-to-German translation, improving over the existing best ensemble result by over 1 BLEU. On English-to-French translation, we outperform the previoussingle state-of-the-art with model by 0.7 BLEU, achieving a BLEU score of 41.1.",
+          "conferenceName": "NeurIPS 2017",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html",
+          "libraryCatalog": "NeurIPS Proceedings"
+        },
+        "sourceURL": "https://proceedings.neurips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html",
+        "resolved": true,
+        "warnings": []
+      }
+    }
+  ],
+  "arxivDirect": {
+    "candidates": [
+      {
+        "source": "arXiv",
+        "item": {
+          "itemType": "preprint",
+          "title": "Memory Mosaics at scale",
+          "date": "2025-07-04",
+          "creators": [
+            {
+              "creatorType": "author",
+              "firstName": "Jianyu",
+              "lastName": "Zhang"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Léon",
+              "lastName": "Bottou"
+            }
+          ],
+          "abstractNote": "Memory Mosaics [Zhang et al., 2025], networks of associative memories, have demonstrated appealing compositional and in-context learning capabilities on medium-scale networks (GPT-2 scale) and synthetic small datasets. This work shows that these favorable properties remain when we scale memory mosaics to large language model sizes (llama-8B scale) and real-world datasets. To this end, we scale memory mosaics to 10B size, we train them on one trillion tokens, we introduce a couple architectural modifications (\"Memory Mosaics v2\"), we assess their capabilities across three evaluation dimensions: training-knowledge storage, new-knowledge storage, and in-context learning. Throughout the evaluation, memory mosaics v2 match transformers on the learning of training knowledge (first dimension) and significantly outperforms transformers on carrying out new tasks at inference time (second and third dimensions). These improvements cannot be easily replicated by simply increasing the training data for transformers. A memory mosaics v2 trained on one trillion tokens still perform better on these tasks than a transformer trained on eight trillion tokens.",
+          "url": "https://arxiv.org/abs/2507.03285v3",
+          "repository": "arXiv",
+          "archiveID": "2507.03285v3",
+          "libraryCatalog": "arXiv"
+        },
+        "sourceURL": "https://arxiv.org/abs/2507.03285v3",
+        "resolved": true,
+        "score": 1
+      }
+    ],
+    "statuses": [
+      {
+        "source": "arXiv",
+        "ok": true,
+        "count": 1
+      }
+    ],
+    "query": {
+      "kind": "arxiv",
+      "value": "2507.03285"
+    }
+  }
+}

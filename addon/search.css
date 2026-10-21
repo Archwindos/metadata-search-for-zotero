@@ -1,0 +1,38 @@
+:root { color-scheme: light dark; font: 14px system-ui, sans-serif; color: light-dark(#243248, #e5e9f1); background: light-dark(#f5f7fb, #191d26); }
+window { padding: 0; }
+* { box-sizing: border-box; }
+#app { display: flex; flex-direction: column; width: 100%; height: 100%; min-width: 720px; min-height: 520px; }
+header { padding: 22px 26px 12px; }
+h1 { font-size: 23px; margin: 0 0 6px; } h2 { font-size: 15px; margin: 0 0 12px; }
+p { margin: 7px 0; line-height: 1.55; } #context { color: light-dark(#53657d, #aebbd0); overflow-wrap: anywhere; }
+form { margin-top: 15px; } form > label { display: block; margin-bottom: 7px; font-weight: 600; }
+.query-row { display: flex; gap: 8px; } #query { flex: 1; min-width: 0; padding: 10px 12px; font: inherit; border: 1px solid light-dark(#c7d1df, #586478); border-radius: 7px; background: light-dark(white, #232a37); color: inherit; }
+button { font: inherit; cursor: pointer; padding: 9px 15px; border: 1px solid light-dark(#c7d1df, #586478); border-radius: 7px; background: light-dark(white, #232a37); color: inherit; }
+button:disabled { opacity: .5; cursor: default; } button:focus-visible, input:focus-visible { outline: 2px solid #4c89f2; outline-offset: 2px; }
+#search, #apply { color: white; background: #225fd4; border-color: #225fd4; } .sources { display: flex; gap: 22px; flex-wrap: wrap; margin: 10px 0; }
+.sources label { display: flex; gap: 4px; align-items: center; } input[type="checkbox"] { accent-color: #225fd4; }
+.hint, .empty { font-size: 12px; color: light-dark(#607086, #a8b7ce); } #hints { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+#hints button { font-size: 12px; padding: 3px 8px; }
+#status { padding: 8px 26px; font-weight: 600; } #provider-status { padding: 0 26px 10px; display: flex; flex-wrap: wrap; gap: 8px; font-size: 12px; }
+.source-status { padding: 5px 8px; border-radius: 5px; background: light-dark(#e8edf5, #283142); overflow-wrap: anywhere; } .error { color: light-dark(#a62d22, #ffb4a6); }
+main { display: grid; grid-template-columns: 40% 60%; flex: 1; min-height: 0; border-top: 1px solid light-dark(#dbe2ed, #3c4555); }
+main > section { padding: 18px 24px; overflow: auto; } .results-panel { border-right: 1px solid light-dark(#dbe2ed, #3c4555); }
+.candidate { display: block; width: 100%; text-align: left; padding: 13px; margin: 0 0 10px; background: light-dark(white, #232a37); }
+.candidate.selected { border-color: #4c89f2; box-shadow: inset 3px 0 #4c89f2; }
+.candidate strong { display: block; line-height: 1.45; } .candidate small { display: block; margin-top: 6px; color: light-dark(#607086, #a8b7ce); line-height: 1.5; }
+.badge { display: inline-block; font-size: 11px; padding: 3px 7px; margin-bottom: 7px; border-radius: 4px; background: light-dark(#eaf0fd, #303f60); }
+.source-link { color: light-dark(#225fd4, #8cb7ff); overflow-wrap: anywhere; }
+.warning { font-size: 12px; padding: 10px; border-radius: 6px; background: light-dark(#fff2d7, #463b27); line-height: 1.5; margin: 10px 0; }
+.success { font-size: 12px; padding: 10px; border-radius: 6px; background: light-dark(#e2f4e9, #203c31); line-height: 1.5; margin: 10px 0; }
+.field { border-top: 1px solid light-dark(#e3e8f0, #3c4555); padding: 11px 0; }
+.preview-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+.preview-toolbar h2 { margin: 0; }
+#select-all { font-size: 12px; padding: 5px 10px; }
+.field.unchanged, .field.unchanged .before, .field.unchanged .caption { color: light-dark(#78818e, #929ba9); }
+.field.unchanged input { accent-color: #87909d; cursor: default; }
+.field label { font-weight: 600; display: flex; gap: 6px; align-items: center; } .field p { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 13px; }
+.before { color: light-dark(#8b4b31, #e8b09c); } .field .caption { color: light-dark(#607086, #a8b7ce); font-size: 11px; }
+footer { border-top: 1px solid light-dark(#dbe2ed, #3c4555); display: flex; gap: 10px; align-items: center; padding: 14px 24px; }
+footer span { flex: 1; font-size: 12px; } [hidden] { display: none !important; }
+summary { cursor: pointer; font-size: 12px; margin: 8px 0; }
+#publication-summary { margin: 0; padding: 0 26px 10px; }

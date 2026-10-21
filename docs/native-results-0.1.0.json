@@ -1,0 +1,439 @@
+{
+  "version": "10.0.6",
+  "at": "2026-10-11T03:07:24.279Z",
+  "checks": [
+    {
+      "name": "Plugin startup",
+      "pass": true,
+      "details": {
+        "menus": [
+          "paper-metadata-search\\@local\\.zotero-paper-metadata-search-tools",
+          "paper-metadata-search\\@local\\.zotero-paper-metadata-search-item"
+        ]
+      }
+    },
+    {
+      "name": "Isolated data directory",
+      "pass": true,
+      "details": "<PROJECT_ROOT>\\.runtime-test\\run-20261011-110722\\data"
+    },
+    {
+      "name": "PDF title reconstructed from word coordinates",
+      "pass": true,
+      "details": {
+        "label": "为 PDF 创建或补充父条目：memory-mosaics",
+        "query": "Memory Mosaics at scale",
+        "hints": {
+          "title": "Memory Mosaics at scale",
+          "filenameTitle": "memory mosaics",
+          "arxiv": "",
+          "doi": ""
+        }
+      }
+    },
+    {
+      "name": "Formal title search",
+      "pass": true,
+      "details": [
+        {
+          "source": "arXiv",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "source": "DBLP",
+          "ok": false,
+          "message": "需要网站人机验证；未绕过验证。可暂时关闭此来源。"
+        },
+        {
+          "source": "Crossref",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "source": "NeurIPS",
+          "ok": true,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Official bibliography",
+      "pass": true,
+      "details": {
+        "itemType": "conferencePaper",
+        "title": "Memory Mosaics at scale",
+        "creators": [
+          {
+            "firstName": "Jianyu",
+            "lastName": "Zhang",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Leon",
+            "lastName": "Bottou",
+            "creatorType": "author"
+          }
+        ],
+        "proceedingsTitle": "Advances in Neural Information Processing Systems",
+        "date": "2025",
+        "volume": "38",
+        "DOI": "10.52202/085713-1299",
+        "pages": "38929–38956",
+        "abstractNote": "Memory Mosaics, networks of associative memories, have demonstrated appealing compositional and in-context learning capabilities on medium-scale networks (GPT-2 scale) and synthetic small datasets. This work shows that these favorable properties remain when we scale memory mosaics to large language model sizes (llama-8B scale) and real-world datasets. To this end, we scale memory mosaics to 10B size, we train them on one trillion tokens, we introduce a couple architectural modifications (memory mosaics v2), we assess their capabilities across three evaluation dimensions: training-knowledge storage, new-knowledge storage, and in-context learning. Throughout the evaluation, memory mosaics v2 match transformers on the learning of training knowledge (first dimension) and significantly outperforms transformers on carrying out new tasks at inference time (second and third dimensions). These improvements cannot be easily replicated by simply increasing the training data for transformers. A memory mosaics v2 trained on one trillion tokens still perform better on these tasks than a transformer trained on eight trillion tokens.",
+        "conferenceName": "NeurIPS 2025",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3767842e2ebee900236f534855aa2c36-Abstract-Conference.html",
+        "libraryCatalog": "NeurIPS Proceedings",
+        "publicationTitle": "Advances in Neural Information Processing Systems",
+        "publisher": "Curran Associates, Inc."
+      }
+    },
+    {
+      "name": "arXiv fallback title search",
+      "pass": true,
+      "details": {
+        "itemType": "preprint",
+        "title": "Memory Mosaics at scale",
+        "date": "2025-07-04",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Jianyu",
+            "lastName": "Zhang"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Léon",
+            "lastName": "Bottou"
+          }
+        ],
+        "abstractNote": "Memory Mosaics [Zhang et al., 2025], networks of associative memories, have demonstrated appealing compositional and in-context learning capabilities on medium-scale networks (GPT-2 scale) and synthetic small datasets. This work shows that these favorable properties remain when we scale memory mosaics to large language model sizes (llama-8B scale) and real-world datasets. To this end, we scale memory mosaics to 10B size, we train them on one trillion tokens, we introduce a couple architectural modifications (\"Memory Mosaics v2\"), we assess their capabilities across three evaluation dimensions: training-knowledge storage, new-knowledge storage, and in-context learning. Throughout the evaluation, memory mosaics v2 match transformers on the learning of training knowledge (first dimension) and significantly outperforms transformers on carrying out new tasks at inference time (second and third dimensions). These improvements cannot be easily replicated by simply increasing the training data for transformers. A memory mosaics v2 trained on one trillion tokens still perform better on these tasks than a transformer trained on eight trillion tokens.",
+        "url": "https://arxiv.org/abs/2507.03285v3",
+        "repository": "arXiv",
+        "archiveID": "2507.03285v3",
+        "libraryCatalog": "arXiv"
+      }
+    },
+    {
+      "name": "arXiv preprint saved with correct type",
+      "pass": true,
+      "details": {
+        "key": "MW435CQT",
+        "version": 0,
+        "itemType": "preprint",
+        "title": "Memory Mosaics at scale",
+        "abstractNote": "Memory Mosaics [Zhang et al., 2025], networks of associative memories, have demonstrated appealing compositional and in-context learning capabilities on medium-scale networks (GPT-2 scale) and synthetic small datasets. This work shows that these favorable properties remain when we scale memory mosaics to large language model sizes (llama-8B scale) and real-world datasets. To this end, we scale memory mosaics to 10B size, we train them on one trillion tokens, we introduce a couple architectural modifications (\"Memory Mosaics v2\"), we assess their capabilities across three evaluation dimensions: training-knowledge storage, new-knowledge storage, and in-context learning. Throughout the evaluation, memory mosaics v2 match transformers on the learning of training knowledge (first dimension) and significantly outperforms transformers on carrying out new tasks at inference time (second and third dimensions). These improvements cannot be easily replicated by simply increasing the training data for transformers. A memory mosaics v2 trained on one trillion tokens still perform better on these tasks than a transformer trained on eight trillion tokens.",
+        "date": "2025-07-04",
+        "url": "https://arxiv.org/abs/2507.03285v3",
+        "libraryCatalog": "arXiv",
+        "repository": "arXiv",
+        "archiveID": "2507.03285v3",
+        "creators": [
+          {
+            "firstName": "Jianyu",
+            "lastName": "Zhang",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Léon",
+            "lastName": "Bottou",
+            "creatorType": "author"
+          }
+        ],
+        "tags": [],
+        "collections": [
+          "PP2H7J55"
+        ],
+        "relations": {},
+        "dateAdded": "2026-10-11T03:07:34Z",
+        "dateModified": "2026-10-11T03:07:34Z"
+      }
+    },
+    {
+      "name": "PDF parent created",
+      "pass": true,
+      "details": {
+        "parentID": 3,
+        "createdID": 3
+      }
+    },
+    {
+      "name": "Collection preserved",
+      "pass": true,
+      "details": [
+        1
+      ]
+    },
+    {
+      "name": "PDF file preserved",
+      "pass": true,
+      "details": "memory-mosaics.pdf"
+    },
+    {
+      "name": "Existing fields protected by default",
+      "pass": true,
+      "details": [
+        {
+          "name": "title",
+          "before": "User edited title",
+          "after": "Memory Mosaics at scale",
+          "checked": false,
+          "changed": true
+        },
+        {
+          "name": "abstractNote",
+          "before": "User written abstract",
+          "after": "Memory Mosaics, networks of associative memories, have demonstrated appealing compositional and in-context learning capabilities on medium-scale networks (GPT-2 scale) and synthetic small datasets. This work shows that these favorable properties remain when we scale memory mosaics to large language model sizes (llama-8B scale) and real-world datasets. To this end, we scale memory mosaics to 10B size, we train them on one trillion tokens, we introduce a couple architectural modifications (memory mosaics v2), we assess their capabilities across three evaluation dimensions: training-knowledge storage, new-knowledge storage, and in-context learning. Throughout the evaluation, memory mosaics v2 match transformers on the learning of training knowledge (first dimension) and significantly outperforms transformers on carrying out new tasks at inference time (second and third dimensions). These improvements cannot be easily replicated by simply increasing the training data for transformers. A memory mosaics v2 trained on one trillion tokens still perform better on these tasks than a transformer trained on eight trillion tokens.",
+          "checked": false,
+          "changed": true
+        },
+        {
+          "name": "date",
+          "before": "2025",
+          "after": "2025",
+          "checked": false,
+          "changed": false
+        },
+        {
+          "name": "DOI",
+          "before": "10.52202/085713-1299",
+          "after": "10.52202/085713-1299",
+          "checked": false,
+          "changed": false
+        },
+        {
+          "name": "url",
+          "before": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3767842e2ebee900236f534855aa2c36-Abstract-Conference.html",
+          "after": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3767842e2ebee900236f534855aa2c36-Abstract-Conference.html",
+          "checked": false,
+          "changed": false
+        },
+        {
+          "name": "proceedingsTitle",
+          "before": "Advances in Neural Information Processing Systems",
+          "after": "Advances in Neural Information Processing Systems",
+          "checked": false,
+          "changed": false
+        },
+        {
+          "name": "conferenceName",
+          "before": "NeurIPS 2025",
+          "after": "NeurIPS 2025",
+          "checked": false,
+          "changed": false
+        },
+        {
+          "name": "publisher",
+          "before": "Curran Associates, Inc.",
+          "after": "Curran Associates, Inc.",
+          "checked": false,
+          "changed": false
+        },
+        {
+          "name": "volume",
+          "before": "38",
+          "after": "38",
+          "checked": false,
+          "changed": false
+        },
+        {
+          "name": "pages",
+          "before": "38929–38956",
+          "after": "38929–38956",
+          "checked": false,
+          "changed": false
+        },
+        {
+          "name": "libraryCatalog",
+          "before": "NeurIPS Proceedings",
+          "after": "NeurIPS Proceedings",
+          "checked": false,
+          "changed": false
+        }
+      ]
+    },
+    {
+      "name": "Existing title and abstract preserved",
+      "pass": true,
+      "details": {
+        "key": "WIWYDD34",
+        "version": 0,
+        "itemType": "conferencePaper",
+        "title": "User edited title",
+        "abstractNote": "User written abstract",
+        "date": "2025",
+        "DOI": "10.52202/085713-1299",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3767842e2ebee900236f534855aa2c36-Abstract-Conference.html",
+        "libraryCatalog": "NeurIPS Proceedings",
+        "volume": "38",
+        "publisher": "Curran Associates, Inc.",
+        "pages": "38929–38956",
+        "proceedingsTitle": "Advances in Neural Information Processing Systems",
+        "conferenceName": "NeurIPS 2025",
+        "creators": [
+          {
+            "firstName": "Jianyu",
+            "lastName": "Zhang",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Leon",
+            "lastName": "Bottou",
+            "creatorType": "author"
+          }
+        ],
+        "tags": [],
+        "collections": [
+          "PP2H7J55"
+        ],
+        "relations": {},
+        "dateAdded": "2026-10-11T03:07:34Z",
+        "dateModified": "2026-10-11T03:07:34Z"
+      }
+    },
+    {
+      "name": "Concurrent edits protected",
+      "pass": true
+    },
+    {
+      "name": "Dialog opened",
+      "pass": true
+    },
+    {
+      "name": "Dialog initialized",
+      "pass": true
+    },
+    {
+      "name": "Candidate list rendered",
+      "pass": true
+    },
+    {
+      "name": "Field preview rendered",
+      "pass": true
+    },
+    {
+      "name": "Preview has unselected existing title",
+      "pass": true
+    },
+    {
+      "name": "UI layout fits",
+      "pass": true,
+      "details": {
+        "width": 1060,
+        "height": 761
+      }
+    },
+    {
+      "name": "Explicit UI overwrite saved",
+      "pass": true,
+      "details": "已保存：Memory Mosaics at scale。可在文献库中查看。"
+    },
+    {
+      "name": "Selection failure does not report a failed save",
+      "pass": true,
+      "details": "已保存：Memory Mosaics at scale。可在文献库中查看。"
+    },
+    {
+      "name": "Zotero undo restores existing title",
+      "pass": true,
+      "details": "Concurrent edit"
+    }
+  ],
+  "pdfHints": {
+    "label": "为 PDF 创建或补充父条目：memory-mosaics",
+    "query": "Memory Mosaics at scale",
+    "hints": {
+      "title": "Memory Mosaics at scale",
+      "filenameTitle": "memory mosaics",
+      "arxiv": "",
+      "doi": ""
+    }
+  },
+  "nativeRecognition": {
+    "outcome": "no-match"
+  },
+  "providers": [
+    {
+      "source": "arXiv",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "DBLP",
+      "ok": false,
+      "message": "需要网站人机验证；未绕过验证。可暂时关闭此来源。"
+    },
+    {
+      "source": "Crossref",
+      "ok": true,
+      "count": 8
+    },
+    {
+      "source": "NeurIPS",
+      "ok": true,
+      "count": 1
+    }
+  ],
+  "resolved": {
+    "source": "NeurIPS",
+    "item": {
+      "itemType": "conferencePaper",
+      "title": "Memory Mosaics at scale",
+      "creators": [
+        {
+          "firstName": "Jianyu",
+          "lastName": "Zhang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Leon",
+          "lastName": "Bottou",
+          "creatorType": "author"
+        }
+      ],
+      "proceedingsTitle": "Advances in Neural Information Processing Systems",
+      "date": "2025",
+      "volume": "38",
+      "DOI": "10.52202/085713-1299",
+      "pages": "38929–38956",
+      "abstractNote": "Memory Mosaics, networks of associative memories, have demonstrated appealing compositional and in-context learning capabilities on medium-scale networks (GPT-2 scale) and synthetic small datasets. This work shows that these favorable properties remain when we scale memory mosaics to large language model sizes (llama-8B scale) and real-world datasets. To this end, we scale memory mosaics to 10B size, we train them on one trillion tokens, we introduce a couple architectural modifications (memory mosaics v2), we assess their capabilities across three evaluation dimensions: training-knowledge storage, new-knowledge storage, and in-context learning. Throughout the evaluation, memory mosaics v2 match transformers on the learning of training knowledge (first dimension) and significantly outperforms transformers on carrying out new tasks at inference time (second and third dimensions). These improvements cannot be easily replicated by simply increasing the training data for transformers. A memory mosaics v2 trained on one trillion tokens still perform better on these tasks than a transformer trained on eight trillion tokens.",
+      "conferenceName": "NeurIPS 2025",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3767842e2ebee900236f534855aa2c36-Abstract-Conference.html",
+      "libraryCatalog": "NeurIPS Proceedings",
+      "publicationTitle": "Advances in Neural Information Processing Systems",
+      "publisher": "Curran Associates, Inc."
+    },
+    "sourceURL": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3767842e2ebee900236f534855aa2c36-Abstract-Conference.html",
+    "resolved": true,
+    "warnings": [
+      "官方引用记录的年份为 2025，页面发布日期为 2026-04-23。请核对引用日期。"
+    ]
+  },
+  "uiText": "\n    \n      论文元数据检索\n      为 PDF 创建或补充父条目：memory-mosaics\n      \n        论文标题、DOI、arXiv ID 或链接\n        \n          \n          搜索\n          取消\n        \n        \n           NeurIPS 官方\n           arXiv\n           DBLP\n           Crossref\n        \n      \n      PDF 标题为自动提取建议，可修正后搜索。只将查询文本发送到所选来源。使用文件名标题\n      正式发表版本优先显示；预印本单独保留。PDF 提取的标题可修改；相似度仅用于排序，请核对作者、年份和版本。\n    \n    已选择候选；请核对要更新的字段。\n    NeurIPS: 1 条来源记录\n    \n      \n        候选论文 (1)\n        NeurIPS · 正式发表记录Memory Mosaics at scale2025 · 标题相似度 100%Advances in Neural Information Processing Systems\n      \n      \n        元数据预览\n        NeurIPS · 会议论文打开元数据来源官方引用记录的年份为 2025，页面发布日期为 2026-04-23。请核对引用日期。标题现有：Concurrent edit候选：Memory Mosaics at scale作者现有：Jianyu Zhang; Leon Bottou候选：Jianyu Zhang; Leon Bottou与现有字段一致日期现有：2025候选：2025与现有字段一致DOI现有：10.52202/085713-1299候选：10.52202/085713-1299与现有字段一致论文链接现有：https://proceedings.neurips.cc/paper_files/paper/2025/hash/3767842e2ebee900236f534855aa2c36-Abstract-Conference.html候选：https://proceedings.neurips.cc/paper_files/paper/2025/hash/3767842e2ebee900236f534855aa2c36-Abstract-Conference.html与现有字段一致论文集现有：Advances in Neural Information Processing Systems候选：Advances in Neural Information Processing Systems与现有字段一致会议现有：NeurIPS 2025候选：NeurIPS 2025与现有字段一致出版者现有：Curran Associates, Inc.候选：Curran Associates, Inc.与现有字段一致卷现有：38候选：38与现有字段一致页码现有：38929–38956候选：38929–38956与现有字段一致元数据来源现有：NeurIPS Proceedings候选：NeurIPS Proceedings与现有字段一致摘要现有：User written abstract候选：Memory Mosaics, networks of associative memories, have demonstrated appealing compositional and in-context learning capabilities on medium-scale networks (GPT-2 scale) and synthetic small datasets. This work shows that these favorable properties remain when we scale memory mosaics to large language model sizes (llama-8B scale) and real-world datasets. To this end, we scale memory mosaics to 10B size, we train them on one trillion tokens, we introduce a couple architectural modifications (memory mosaics v2), we assess their capabilities across three evaluation dimensions: training-knowledge storage, new-knowledge storage, and in-context learning. Throughout the evaluation, memory mosaics v2 match transformers on the learning of training knowledge (first dimension) and significantly outperforms transformers on carrying out new tasks at inference time (second and third dimensions). These improvements cannot be easily replicated by simply increasing the training data for transformers. A memory mosaics v2 trained on one trillion tokens still perform better on these tasks than a transformer trained on eight trillion tokens.\n      \n    \n    \n      已有字段默认不勾选。勾选已有字段表示允许替换。\n      更新选中字段\n      关闭\n    \n  ",
+  "screenshot": "docs/native-preview.png",
+  "pass": true,
+  "testRun": ".runtime-test/run-20261011-110722",
+  "artifact": {
+    "file": "dist/paper-metadata-search-0.1.0.xpi",
+    "sha256": "3a9ef789c55f32ddc4a0f8df22e627aed394c1f026f67e55879283ce47f1a914",
+    "testedPackageMatchesRelease": true,
+    "archiveMatchesSource": true,
+    "files": [
+      "LICENSE",
+      "bootstrap.js",
+      "core.js",
+      "integration.js",
+      "manifest.json",
+      "search.css",
+      "search.js",
+      "search.xhtml"
+    ]
+  },
+  "validation": {
+    "offlineTestsPassed": 17,
+    "nativeChecksPassed": 22,
+    "nativeTestMode": "packaged-xpi",
+    "originalLibraryModified": false
+  },
+  "publicationNote": "Historical isolated-test report. Local machine paths are replaced with placeholders; no tests were rerun for this upload."
+}

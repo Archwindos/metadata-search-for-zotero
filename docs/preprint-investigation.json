@@ -1,0 +1,242 @@
+{
+  "at": "2026-10-12T02:42:30.195Z",
+  "papers": [
+    {
+      "title": "From Data Statistics to Feature Geometry: How Correlations Shape Superposition",
+      "candidates": [
+        {
+          "source": "arXiv",
+          "item": {
+            "itemType": "preprint",
+            "title": "From Data Statistics to Feature Geometry: How Correlations Shape Superposition",
+            "date": "2026-03-10",
+            "creators": [
+              {
+                "creatorType": "author",
+                "firstName": "Lucas",
+                "lastName": "Prieto"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Edward",
+                "lastName": "Stevinson"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Melih",
+                "lastName": "Barsbey"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Tolga",
+                "lastName": "Birdal"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Pedro A. M.",
+                "lastName": "Mediano"
+              }
+            ],
+            "abstractNote": "A central idea in mechanistic interpretability is that neural networks represent more features than they have dimensions, arranging them in superposition to form an over-complete basis. This framing has been influential, motivating dictionary learning approaches such as sparse autoencoders. However, superposition has mostly been studied in idealized settings where features are sparse and uncorrelated. In these settings, superposition is typically understood as introducing interference that must be minimized geometrically and filtered out by non-linearities such as ReLUs, yielding local structures like regular polytopes. We show that this account is incomplete for realistic data by introducing Bag-of-Words Superposition (BOWS), a controlled setting to encode binary bag-of-words representations of internet text in superposition. Using BOWS, we find that when features are correlated, interference can be constructive rather than just noise to be filtered out. This is achieved by arranging features according to their co-activation patterns, making interference between active features constructive, while still using ReLUs to avoid false positives. We show that this kind of arrangement is more prevalent in models trained with weight decay and naturally gives rise to semantic clusters and cyclical structures which have been observed in real language models yet were not explained by the standard picture of superposition. Code for this paper can be found at https://github.com/LucasPrietoAl/correlations-feature-geometry.",
+            "url": "https://arxiv.org/abs/2603.09972v1",
+            "repository": "arXiv",
+            "archiveID": "2603.09972v1",
+            "libraryCatalog": "arXiv"
+          },
+          "sourceURL": "https://arxiv.org/abs/2603.09972v1",
+          "resolved": true,
+          "score": 1
+        }
+      ],
+      "statuses": [
+        {
+          "source": "arXiv",
+          "ok": true,
+          "count": 1
+        }
+      ],
+      "query": {
+        "kind": "title",
+        "value": "From Data Statistics to Feature Geometry: How Correlations Shape Superposition"
+      },
+      "page": {
+        "url": "https://arxiv.org/abs/2603.09972v1",
+        "citationMetadata": [
+          {
+            "name": "citation_title",
+            "content": "From Data Statistics to Feature Geometry: How Correlations Shape Superposition"
+          },
+          {
+            "name": "citation_author",
+            "content": "Prieto, Lucas"
+          },
+          {
+            "name": "citation_author",
+            "content": "Stevinson, Edward"
+          },
+          {
+            "name": "citation_author",
+            "content": "Barsbey, Melih"
+          },
+          {
+            "name": "citation_author",
+            "content": "Birdal, Tolga"
+          },
+          {
+            "name": "citation_author",
+            "content": "Mediano, Pedro A. M."
+          },
+          {
+            "name": "citation_date",
+            "content": "2026/03/10"
+          },
+          {
+            "name": "citation_online_date",
+            "content": "2026/03/10"
+          },
+          {
+            "name": "citation_pdf_url",
+            "content": "https://arxiv.org/pdf/2603.09972"
+          },
+          {
+            "name": "citation_arxiv_id",
+            "content": "2603.09972"
+          },
+          {
+            "name": "citation_abstract",
+            "content": "A central idea in mechanistic interpretability is that neural networks represent more features than they have dimensions, arranging them in superposition to form an over-complete basis. This framing has been influential, motivating dictionary learning approaches such as sparse autoencoders. However, superposition has mostly been studied in idealized settings where features are sparse and uncorrelated. In these settings, superposition is typically understood as introducing interference that must be minimized geometrically and filtered out by non-linearities such as ReLUs, yielding local structures like regular polytopes. We show that this account is incomplete for realistic data by introducing Bag-of-Words Superposition (BOWS), a controlled setting to encode binary bag-of-words representations of internet text in superposition. Using BOWS, we find that when features are correlated, interference can be constructive rather than just noise to be filtered out. This is achieved by arranging features according to their co-activation patterns, making interference between active features constructive, while still using ReLUs to avoid false positives. We show that this kind of arrangement is more prevalent in models trained with weight decay and naturally gives rise to semantic clusters and cyclical structures which have been observed in real language models yet were not explained by the standard picture of superposition. Code for this paper can be found at https://github.com/LucasPrietoAl/correlations-feature-geometry."
+          }
+        ],
+        "doiLinks": [
+          {
+            "text": "https://doi.org/10.48550/arXiv.2603.09972",
+            "url": "https://doi.org/10.48550/arXiv.2603.09972"
+          }
+        ]
+      }
+    },
+    {
+      "title": "From Directions to Regions: Decomposing Activations in Language Models via Local Geometry",
+      "candidates": [
+        {
+          "source": "arXiv",
+          "item": {
+            "itemType": "preprint",
+            "title": "From Directions to Regions: Decomposing Activations in Language Models via Local Geometry",
+            "date": "2026-02-02",
+            "creators": [
+              {
+                "creatorType": "author",
+                "firstName": "Or",
+                "lastName": "Shafran"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Shaked",
+                "lastName": "Ronen"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Omri",
+                "lastName": "Fahn"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Shauli",
+                "lastName": "Ravfogel"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Atticus",
+                "lastName": "Geiger"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Mor",
+                "lastName": "Geva"
+              }
+            ],
+            "abstractNote": "Activation decomposition methods in language models are tightly coupled to geometric assumptions on how concepts are realized in activation space. Existing approaches search for individual global directions, implicitly assuming linear separability, which overlooks concepts with nonlinear or multi-dimensional structure. In this work, we leverage Mixture of Factor Analyzers (MFA) as a scalable, unsupervised alternative that models the activation space as a collection of Gaussian regions with their local covariance structure. MFA decomposes activations into two compositional geometric objects: the region's centroid in activation space, and the local variation from the centroid. We train large-scale MFAs for Llama-3.1-8B and Gemma-2-2B, and show they capture complex, nonlinear structures in activation space. Moreover, evaluations on localization and steering benchmarks show that MFA outperforms unsupervised baselines, is competitive with supervised localization methods, and often achieves stronger steering performance than sparse autoencoders. Together, our findings position local geometry, expressed through subspaces, as a promising unit of analysis for scalable concept discovery and model control, accounting for complex structures that isolated directions fail to capture.",
+            "url": "https://arxiv.org/abs/2602.02464v2",
+            "repository": "arXiv",
+            "archiveID": "2602.02464v2",
+            "libraryCatalog": "arXiv"
+          },
+          "sourceURL": "https://arxiv.org/abs/2602.02464v2",
+          "resolved": true,
+          "score": 1
+        }
+      ],
+      "statuses": [
+        {
+          "source": "arXiv",
+          "ok": true,
+          "count": 1
+        }
+      ],
+      "query": {
+        "kind": "title",
+        "value": "From Directions to Regions: Decomposing Activations in Language Models via Local Geometry"
+      },
+      "page": {
+        "url": "https://arxiv.org/abs/2602.02464v2",
+        "citationMetadata": [
+          {
+            "name": "citation_title",
+            "content": "From Directions to Regions: Decomposing Activations in Language Models via Local Geometry"
+          },
+          {
+            "name": "citation_author",
+            "content": "Shafran, Or"
+          },
+          {
+            "name": "citation_author",
+            "content": "Ronen, Shaked"
+          },
+          {
+            "name": "citation_author",
+            "content": "Fahn, Omri"
+          },
+          {
+            "name": "citation_author",
+            "content": "Ravfogel, Shauli"
+          },
+          {
+            "name": "citation_author",
+            "content": "Geiger, Atticus"
+          },
+          {
+            "name": "citation_author",
+            "content": "Geva, Mor"
+          },
+          {
+            "name": "citation_date",
+            "content": "2026/02/02"
+          },
+          {
+            "name": "citation_online_date",
+            "content": "2026/09/28"
+          },
+          {
+            "name": "citation_pdf_url",
+            "content": "https://arxiv.org/pdf/2602.02464"
+          },
+          {
+            "name": "citation_arxiv_id",
+            "content": "2602.02464"
+          },
+          {
+            "name": "citation_abstract",
+            "content": "Activation decomposition methods in language models are tightly coupled to geometric assumptions on how concepts are realized in activation space. Existing approaches search for individual global directions, implicitly assuming linear separability, which overlooks concepts with nonlinear or multi-dimensional structure. In this work, we leverage Mixture of Factor Analyzers (MFA) as a scalable, unsupervised alternative that models the activation space as a collection of Gaussian regions with their local covariance structure. MFA decomposes activations into two compositional geometric objects: the region's centroid in activation space, and the local variation from the centroid. We train large-scale MFAs for Llama-3.1-8B and Gemma-2-2B, and show they capture complex, nonlinear structures in activation space. Moreover, evaluations on localization and steering benchmarks show that MFA outperforms unsupervised baselines, is competitive with supervised localization methods, and often achieves stronger steering performance than sparse autoencoders. Together, our findings position local geometry, expressed through subspaces, as a promising unit of analysis for scalable concept discovery and model control, accounting for complex structures that isolated directions fail to capture."
+          }
+        ],
+        "doiLinks": [
+          {
+            "text": "https://doi.org/10.48550/arXiv.2602.02464",
+            "url": "https://doi.org/10.48550/arXiv.2602.02464"
+          }
+        ]
+      }
+    }
+  ]
+}

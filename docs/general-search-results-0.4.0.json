@@ -1,0 +1,2108 @@
+{
+  "at": "2026-10-13T13:42:11.024Z",
+  "version": "0.4.0",
+  "runtime": "Node.js",
+  "cases": [
+    {
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "pass": true,
+      "statuses": [
+        {
+          "source": "Web",
+          "ok": true,
+          "count": 2
+        },
+        {
+          "source": "arXiv",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "source": "Crossref",
+          "ok": true,
+          "count": 12
+        },
+        {
+          "source": "会议日程",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "source": "OpenReview",
+          "ok": true,
+          "count": 1
+        }
+      ],
+      "discoveryURLs": [
+        "https://openreview.net/forum?id=nZeVKeeFYf9",
+        "https://iclr.cc/virtual/2022/poster/6319"
+      ],
+      "summary": "找到候选发表记录：ICLR 2022。请核对作者与版本。",
+      "requests": [
+        "https://www.bing.com/search?q=%22LoRA%3A%20Low-Rank%20Adaptation%20of%20Large%20Language%20Models%22&format=rss",
+        "https://api.crossref.org/works?query.title=LoRA%3A%20Low-Rank%20Adaptation%20of%20Large%20Language%20Models&rows=12",
+        "https://export.arxiv.org/api/query?search_query=ti%3A%22LoRA%3A%20Low-Rank%20Adaptation%20of%20Large%20Language%20Models%22&max_results=8",
+        "https://iclr.cc/virtual/2022/poster/6319",
+        "https://api.openreview.net/notes/search?term=LoRA%3A%20Low-Rank%20Adaptation%20of%20Large%20Language%20Models&type=exact&content=title&source=forum&limit=20"
+      ],
+      "matchingRecords": [
+        {
+          "source": "OpenReview",
+          "item": {
+            "itemType": "conferencePaper",
+            "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+            "creators": [
+              {
+                "creatorType": "author",
+                "firstName": "Edward J",
+                "lastName": "Hu"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "yelong",
+                "lastName": "shen"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Phillip",
+                "lastName": "Wallis"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Zeyuan",
+                "lastName": "Allen-Zhu"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Yuanzhi",
+                "lastName": "Li"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Shean",
+                "lastName": "Wang"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Lu",
+                "lastName": "Wang"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Weizhu",
+                "lastName": "Chen"
+              }
+            ],
+            "date": "2022",
+            "abstractNote": "An important paradigm of natural language processing consists of large-scale pre-training on general domain data and adaptation to particular tasks or domains. As we pre-train larger models, full fine-tuning, which retrains all model parameters, becomes less feasible. Using GPT-3 175B as an example -- deploying independent instances of fine-tuned models, each with 175B parameters, is prohibitively expensive. We propose Low-Rank Adaptation, or LoRA, which freezes the pre-trained model weights and injects trainable rank decomposition matrices into each layer of the Transformer architecture, greatly reducing the number of trainable parameters for downstream tasks. Compared to GPT-3 175B fine-tuned with Adam, LoRA can reduce the number of trainable parameters by a factor of 10,000 and the GPU memory requirement by a factor of 3. LoRA performs on-par or better than fine-tuning in model quality on RoBERTa, DeBERTa, GPT-2, and GPT-3, despite having fewer trainable parameters, a higher training throughput, and, unlike adapters, no additional inference latency. We also provide an empirical investigation into rank-deficiency in language model adaptation, which sheds light on the efficacy of LoRA. We release a package that facilitates the integration of LoRA with PyTorch models and provide our implementations and model checkpoints for RoBERTa, DeBERTa, and GPT-2 at https://github.com/microsoft/LoRA.",
+            "url": "https://openreview.net/forum?id=nZeVKeeFYf9",
+            "libraryCatalog": "OpenReview",
+            "conferenceName": "ICLR 2022 Poster",
+            "proceedingsTitle": "ICLR 2022"
+          },
+          "sourceURL": "https://openreview.net/forum?id=nZeVKeeFYf9",
+          "resolved": true,
+          "publicationStatus": "published",
+          "warnings": [],
+          "score": 1
+        }
+      ],
+      "preferred": {
+        "source": "OpenReview",
+        "item": {
+          "itemType": "conferencePaper",
+          "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+          "creators": [
+            {
+              "creatorType": "author",
+              "firstName": "Edward J",
+              "lastName": "Hu"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "yelong",
+              "lastName": "shen"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Phillip",
+              "lastName": "Wallis"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Zeyuan",
+              "lastName": "Allen-Zhu"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Yuanzhi",
+              "lastName": "Li"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Shean",
+              "lastName": "Wang"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Lu",
+              "lastName": "Wang"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Weizhu",
+              "lastName": "Chen"
+            }
+          ],
+          "date": "2022",
+          "abstractNote": "An important paradigm of natural language processing consists of large-scale pre-training on general domain data and adaptation to particular tasks or domains. As we pre-train larger models, full fine-tuning, which retrains all model parameters, becomes less feasible. Using GPT-3 175B as an example -- deploying independent instances of fine-tuned models, each with 175B parameters, is prohibitively expensive. We propose Low-Rank Adaptation, or LoRA, which freezes the pre-trained model weights and injects trainable rank decomposition matrices into each layer of the Transformer architecture, greatly reducing the number of trainable parameters for downstream tasks. Compared to GPT-3 175B fine-tuned with Adam, LoRA can reduce the number of trainable parameters by a factor of 10,000 and the GPU memory requirement by a factor of 3. LoRA performs on-par or better than fine-tuning in model quality on RoBERTa, DeBERTa, GPT-2, and GPT-3, despite having fewer trainable parameters, a higher training throughput, and, unlike adapters, no additional inference latency. We also provide an empirical investigation into rank-deficiency in language model adaptation, which sheds light on the efficacy of LoRA. We release a package that facilitates the integration of LoRA with PyTorch models and provide our implementations and model checkpoints for RoBERTa, DeBERTa, and GPT-2 at https://github.com/microsoft/LoRA.",
+          "url": "https://openreview.net/forum?id=nZeVKeeFYf9",
+          "libraryCatalog": "OpenReview",
+          "conferenceName": "ICLR 2022 Poster",
+          "proceedingsTitle": "ICLR 2022"
+        },
+        "sourceURL": "https://openreview.net/forum?id=nZeVKeeFYf9",
+        "resolved": true,
+        "publicationStatus": "published",
+        "warnings": [],
+        "score": 1
+      }
+    },
+    {
+      "title": "Swin Transformer: Hierarchical Vision Transformer Using Shifted Windows",
+      "pass": true,
+      "statuses": [
+        {
+          "source": "Web",
+          "ok": true,
+          "count": 2
+        },
+        {
+          "source": "Crossref",
+          "ok": true,
+          "count": 12
+        },
+        {
+          "source": "arXiv",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "source": "出版社官网 ieeexplore.ieee.org",
+          "ok": false,
+          "message": "HTTP 418"
+        },
+        {
+          "source": "CVF 官网",
+          "ok": true,
+          "count": 1
+        }
+      ],
+      "discoveryURLs": [
+        "https://ieeexplore.ieee.org/abstract/document/9710580",
+        "https://openaccess.thecvf.com/content/ICCV2021/html/Liu_Swin_Transformer_Hierarchical_Vision_Transformer_Using_Shifted_Windows_ICCV_2021_paper.html"
+      ],
+      "summary": "找到候选发表记录：Proceedings of the IEEE/CVF International Conference on Computer Vision；2021 IEEE/CVF International Conference on Computer Vision (ICCV)。请核对作者与版本。",
+      "requests": [
+        "https://www.bing.com/search?q=%22Swin%20Transformer%3A%20Hierarchical%20Vision%20Transformer%20Using%20Shifted%20Windows%22&format=rss",
+        "https://api.crossref.org/works?query.title=Swin%20Transformer%3A%20Hierarchical%20Vision%20Transformer%20Using%20Shifted%20Windows&rows=12",
+        "https://export.arxiv.org/api/query?search_query=ti%3A%22Swin%20Transformer%3A%20Hierarchical%20Vision%20Transformer%20Using%20Shifted%20Windows%22&max_results=8",
+        "https://ieeexplore.ieee.org/abstract/document/9710580",
+        "https://openaccess.thecvf.com/content/ICCV2021/html/Liu_Swin_Transformer_Hierarchical_Vision_Transformer_Using_Shifted_Windows_ICCV_2021_paper.html"
+      ],
+      "matchingRecords": [
+        {
+          "source": "CVF",
+          "item": {
+            "itemType": "conferencePaper",
+            "title": "Swin Transformer: Hierarchical Vision Transformer Using Shifted Windows",
+            "creators": [
+              {
+                "creatorType": "author",
+                "firstName": "Ze",
+                "lastName": "Liu"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Yutong",
+                "lastName": "Lin"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Yue",
+                "lastName": "Cao"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Han",
+                "lastName": "Hu"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Yixuan",
+                "lastName": "Wei"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Zheng",
+                "lastName": "Zhang"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Stephen",
+                "lastName": "Lin"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Baining",
+                "lastName": "Guo"
+              }
+            ],
+            "date": "2021",
+            "DOI": "10.1109/iccv48922.2021.00986",
+            "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Liu_Swin_Transformer_Hierarchical_Vision_Transformer_Using_Shifted_Windows_ICCV_2021_paper.html",
+            "abstractNote": "This paper presents a new vision Transformer, called Swin Transformer, that capably serves as a general-purpose backbone for computer vision. Challenges in adapting Transformer from language to vision arise from differences between the two domains, such as large variations in the scale of visual entities and the high resolution of pixels in images compared to words in text. To address these differences, we propose a hierarchical Transformer whose representation is computed with Shifted windows. The shifted windowing scheme brings greater efficiency by limiting self-attention computation to non-overlapping local windows while also allowing for cross-window connection. This hierarchical architecture has the flexibility to model at various scales and has linear computational complexity with respect to image size. These qualities of Swin Transformer make it compatible with a broad range of vision tasks, including image classification (87.3 top-1 accuracy on ImageNet-1K) and dense prediction tasks such as object detection (58.7 box AP and 51.1 mask AP on COCO test-dev) and semantic segmentation (53.5 mIoU on ADE20K val). Its performance surpasses the previous state-of-the-art by a large margin of +2.7 box AP and +2.6 mask AP on COCO, and +3.2 mIoU on ADE20K, demonstrating the potential of Transformer-based models as vision backbones. The hierarchical design and the shifted window approach also prove beneficial for all-MLP architectures. The code and models are publicly available at https://github.com/microsoft/Swin-Transformer.",
+            "pages": "10012-10022",
+            "volume": "",
+            "issue": "",
+            "publisher": "",
+            "libraryCatalog": "openaccess.thecvf.com",
+            "proceedingsTitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+            "conferenceName": "Proceedings of the IEEE/CVF International Conference on Computer Vision"
+          },
+          "sourceURL": "https://openaccess.thecvf.com/content/ICCV2021/html/Liu_Swin_Transformer_Hierarchical_Vision_Transformer_Using_Shifted_Windows_ICCV_2021_paper.html",
+          "resolved": true,
+          "publicationStatus": "published",
+          "score": 1,
+          "verifiedBy": "Crossref DOI + official full authors"
+        },
+        {
+          "source": "Crossref",
+          "item": {
+            "itemType": "conferencePaper",
+            "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+            "creators": [
+              {
+                "creatorType": "author",
+                "firstName": "Ze",
+                "lastName": "Liu"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Yutong",
+                "lastName": "Lin"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Yue",
+                "lastName": "Cao"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Han",
+                "lastName": "Hu"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Yixuan",
+                "lastName": "Wei"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Zheng",
+                "lastName": "Zhang"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Stephen",
+                "lastName": "Lin"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Baining",
+                "lastName": "Guo"
+              }
+            ],
+            "date": "2021-10",
+            "DOI": "10.1109/iccv48922.2021.00986",
+            "url": "https://doi.org/10.1109/iccv48922.2021.00986",
+            "publisher": "IEEE",
+            "pages": "9992-10002",
+            "volume": "",
+            "abstractNote": "",
+            "libraryCatalog": "Crossref",
+            "proceedingsTitle": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
+            "conferenceName": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)"
+          },
+          "sourceURL": "https://doi.org/10.1109/iccv48922.2021.00986",
+          "publicationStatus": "published",
+          "resolved": true,
+          "score": 1
+        }
+      ],
+      "preferred": {
+        "source": "CVF",
+        "item": {
+          "itemType": "conferencePaper",
+          "title": "Swin Transformer: Hierarchical Vision Transformer Using Shifted Windows",
+          "creators": [
+            {
+              "creatorType": "author",
+              "firstName": "Ze",
+              "lastName": "Liu"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Yutong",
+              "lastName": "Lin"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Yue",
+              "lastName": "Cao"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Han",
+              "lastName": "Hu"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Yixuan",
+              "lastName": "Wei"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Zheng",
+              "lastName": "Zhang"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Stephen",
+              "lastName": "Lin"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Baining",
+              "lastName": "Guo"
+            }
+          ],
+          "date": "2021",
+          "DOI": "10.1109/iccv48922.2021.00986",
+          "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Liu_Swin_Transformer_Hierarchical_Vision_Transformer_Using_Shifted_Windows_ICCV_2021_paper.html",
+          "abstractNote": "This paper presents a new vision Transformer, called Swin Transformer, that capably serves as a general-purpose backbone for computer vision. Challenges in adapting Transformer from language to vision arise from differences between the two domains, such as large variations in the scale of visual entities and the high resolution of pixels in images compared to words in text. To address these differences, we propose a hierarchical Transformer whose representation is computed with Shifted windows. The shifted windowing scheme brings greater efficiency by limiting self-attention computation to non-overlapping local windows while also allowing for cross-window connection. This hierarchical architecture has the flexibility to model at various scales and has linear computational complexity with respect to image size. These qualities of Swin Transformer make it compatible with a broad range of vision tasks, including image classification (87.3 top-1 accuracy on ImageNet-1K) and dense prediction tasks such as object detection (58.7 box AP and 51.1 mask AP on COCO test-dev) and semantic segmentation (53.5 mIoU on ADE20K val). Its performance surpasses the previous state-of-the-art by a large margin of +2.7 box AP and +2.6 mask AP on COCO, and +3.2 mIoU on ADE20K, demonstrating the potential of Transformer-based models as vision backbones. The hierarchical design and the shifted window approach also prove beneficial for all-MLP architectures. The code and models are publicly available at https://github.com/microsoft/Swin-Transformer.",
+          "pages": "10012-10022",
+          "volume": "",
+          "issue": "",
+          "publisher": "",
+          "libraryCatalog": "openaccess.thecvf.com",
+          "proceedingsTitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+          "conferenceName": "Proceedings of the IEEE/CVF International Conference on Computer Vision"
+        },
+        "sourceURL": "https://openaccess.thecvf.com/content/ICCV2021/html/Liu_Swin_Transformer_Hierarchical_Vision_Transformer_Using_Shifted_Windows_ICCV_2021_paper.html",
+        "resolved": true,
+        "publicationStatus": "published",
+        "score": 1,
+        "verifiedBy": "Crossref DOI + official full authors"
+      }
+    },
+    {
+      "title": "A Simple Framework for Contrastive Learning of Visual Representations",
+      "pass": true,
+      "statuses": [
+        {
+          "source": "Web",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "source": "Crossref",
+          "ok": true,
+          "count": 12
+        },
+        {
+          "source": "arXiv",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "source": "出版社官网 proceedings.mlr.press",
+          "ok": true,
+          "count": 1
+        }
+      ],
+      "discoveryURLs": [
+        "https://proceedings.mlr.press/v119/chen20j.html"
+      ],
+      "summary": "找到候选发表记录：International Conference on Machine Learning。请核对作者与版本。",
+      "requests": [
+        "https://www.bing.com/search?q=%22A%20Simple%20Framework%20for%20Contrastive%20Learning%20of%20Visual%20Representations%22&format=rss",
+        "https://api.crossref.org/works?query.title=A%20Simple%20Framework%20for%20Contrastive%20Learning%20of%20Visual%20Representations&rows=12",
+        "https://export.arxiv.org/api/query?search_query=ti%3A%22A%20Simple%20Framework%20for%20Contrastive%20Learning%20of%20Visual%20Representations%22&max_results=8",
+        "https://proceedings.mlr.press/v119/chen20j.html"
+      ],
+      "matchingRecords": [
+        {
+          "source": "Publisher",
+          "item": {
+            "itemType": "conferencePaper",
+            "title": "A Simple Framework for Contrastive Learning of Visual Representations",
+            "creators": [
+              {
+                "creatorType": "author",
+                "firstName": "Ting",
+                "lastName": "Chen"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Simon",
+                "lastName": "Kornblith"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Mohammad",
+                "lastName": "Norouzi"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Geoffrey",
+                "lastName": "Hinton"
+              }
+            ],
+            "date": "2020/11/21",
+            "DOI": "",
+            "url": "https://proceedings.mlr.press/v119/chen20j.html",
+            "abstractNote": "This paper presents SimCLR: a simple framework for contrastive learning of visual representations. We simplify recently proposed contrastive self-supervised learning algorithms without requiring specialized architectures or a memory bank. In order to understand what enables the contrastive prediction tasks to learn useful representations, we systematically study the major components of our framework. We show that (1) composition of data augmentations plays a critical role in defining effective predictive tasks, (2) introducing a learnable nonlinear transformation between the representation and the contrastive loss substantially improves the quality of the learned representations, and (3) contrastive learning benefits from larger batch sizes and more training steps compared to supervised learning. By combining these findings, we are able to considerably outperform previous methods for self-supervised and semi-supervised learning on ImageNet. A linear classifier trained on self-supervised representations learned by SimCLR achieves 76.5% top-1 accuracy, which is a 7% relative improvement over previous state-of-the-art, matching the performance of a supervised ResNet-50. When fine-tuned on only 1% of the labels, we achieve 85.8% top-5 accuracy, outperforming AlexNet with 100X fewer labels.",
+            "pages": "1597-1607",
+            "volume": "",
+            "issue": "",
+            "publisher": "PMLR",
+            "libraryCatalog": "proceedings.mlr.press",
+            "proceedingsTitle": "International Conference on Machine Learning",
+            "conferenceName": "International Conference on Machine Learning"
+          },
+          "sourceURL": "https://proceedings.mlr.press/v119/chen20j.html",
+          "resolved": true,
+          "publicationStatus": "published",
+          "score": 1
+        }
+      ],
+      "preferred": {
+        "source": "Publisher",
+        "item": {
+          "itemType": "conferencePaper",
+          "title": "A Simple Framework for Contrastive Learning of Visual Representations",
+          "creators": [
+            {
+              "creatorType": "author",
+              "firstName": "Ting",
+              "lastName": "Chen"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Simon",
+              "lastName": "Kornblith"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Mohammad",
+              "lastName": "Norouzi"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Geoffrey",
+              "lastName": "Hinton"
+            }
+          ],
+          "date": "2020/11/21",
+          "DOI": "",
+          "url": "https://proceedings.mlr.press/v119/chen20j.html",
+          "abstractNote": "This paper presents SimCLR: a simple framework for contrastive learning of visual representations. We simplify recently proposed contrastive self-supervised learning algorithms without requiring specialized architectures or a memory bank. In order to understand what enables the contrastive prediction tasks to learn useful representations, we systematically study the major components of our framework. We show that (1) composition of data augmentations plays a critical role in defining effective predictive tasks, (2) introducing a learnable nonlinear transformation between the representation and the contrastive loss substantially improves the quality of the learned representations, and (3) contrastive learning benefits from larger batch sizes and more training steps compared to supervised learning. By combining these findings, we are able to considerably outperform previous methods for self-supervised and semi-supervised learning on ImageNet. A linear classifier trained on self-supervised representations learned by SimCLR achieves 76.5% top-1 accuracy, which is a 7% relative improvement over previous state-of-the-art, matching the performance of a supervised ResNet-50. When fine-tuned on only 1% of the labels, we achieve 85.8% top-5 accuracy, outperforming AlexNet with 100X fewer labels.",
+          "pages": "1597-1607",
+          "volume": "",
+          "issue": "",
+          "publisher": "PMLR",
+          "libraryCatalog": "proceedings.mlr.press",
+          "proceedingsTitle": "International Conference on Machine Learning",
+          "conferenceName": "International Conference on Machine Learning"
+        },
+        "sourceURL": "https://proceedings.mlr.press/v119/chen20j.html",
+        "resolved": true,
+        "publicationStatus": "published",
+        "score": 1
+      }
+    },
+    {
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "pass": true,
+      "statuses": [
+        {
+          "source": "Web",
+          "ok": true,
+          "count": 2
+        },
+        {
+          "source": "Crossref",
+          "ok": true,
+          "count": 11
+        },
+        {
+          "source": "arXiv",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "source": "出版社官网 aclanthology.org",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "source": "出版社官网 aclanthology.org",
+          "ok": true,
+          "count": 1
+        }
+      ],
+      "discoveryURLs": [
+        "https://aclanthology.org/N19-1423/",
+        "https://aclanthology.org/N19-1423.pdf"
+      ],
+      "summary": "找到候选发表记录：Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)。请核对作者与版本。",
+      "requests": [
+        "https://www.bing.com/search?q=%22BERT%3A%20Pre-training%20of%20Deep%20Bidirectional%20Transformers%20for%20Language%20Understanding%22&format=rss",
+        "https://api.crossref.org/works?query.title=BERT%3A%20Pre-training%20of%20Deep%20Bidirectional%20Transformers%20for%20Language%20Understanding&rows=12",
+        "https://export.arxiv.org/api/query?search_query=ti%3A%22BERT%3A%20Pre-training%20of%20Deep%20Bidirectional%20Transformers%20for%20Language%20Understanding%22&max_results=8",
+        "https://aclanthology.org/N19-1423/",
+        "https://aclanthology.org/N19-1423.pdf"
+      ],
+      "matchingRecords": [
+        {
+          "source": "Publisher",
+          "item": {
+            "itemType": "conferencePaper",
+            "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "creators": [
+              {
+                "creatorType": "author",
+                "firstName": "Jacob",
+                "lastName": "Devlin"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Ming-Wei",
+                "lastName": "Chang"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Kenton",
+                "lastName": "Lee"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Kristina",
+                "lastName": "Toutanova"
+              }
+            ],
+            "date": "2019/6",
+            "DOI": "10.18653/v1/N19-1423",
+            "url": "https://aclanthology.org/N19-1423/",
+            "abstractNote": "",
+            "pages": "4171-4186",
+            "volume": "",
+            "issue": "",
+            "publisher": "",
+            "libraryCatalog": "aclanthology.org",
+            "proceedingsTitle": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+            "conferenceName": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)"
+          },
+          "sourceURL": "https://aclanthology.org/N19-1423/",
+          "resolved": true,
+          "publicationStatus": "published",
+          "score": 1
+        },
+        {
+          "source": "Crossref",
+          "item": {
+            "itemType": "conferencePaper",
+            "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "creators": [
+              {
+                "creatorType": "author",
+                "firstName": "Jacob",
+                "lastName": "Devlin"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Ming-Wei",
+                "lastName": "Chang"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Kenton",
+                "lastName": "Lee"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Kristina",
+                "lastName": "Toutanova"
+              }
+            ],
+            "date": "2019",
+            "DOI": "10.18653/v1/n19-1423",
+            "url": "https://doi.org/10.18653/v1/n19-1423",
+            "publisher": "Association for Computational Linguistics",
+            "pages": "4171-4186",
+            "volume": "",
+            "abstractNote": "",
+            "libraryCatalog": "Crossref",
+            "proceedingsTitle": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+            "conferenceName": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)"
+          },
+          "sourceURL": "https://doi.org/10.18653/v1/n19-1423",
+          "publicationStatus": "published",
+          "resolved": true,
+          "score": 1
+        }
+      ],
+      "preferred": {
+        "source": "Publisher",
+        "item": {
+          "itemType": "conferencePaper",
+          "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "creators": [
+            {
+              "creatorType": "author",
+              "firstName": "Jacob",
+              "lastName": "Devlin"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Ming-Wei",
+              "lastName": "Chang"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Kenton",
+              "lastName": "Lee"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Kristina",
+              "lastName": "Toutanova"
+            }
+          ],
+          "date": "2019/6",
+          "DOI": "10.18653/v1/N19-1423",
+          "url": "https://aclanthology.org/N19-1423/",
+          "abstractNote": "",
+          "pages": "4171-4186",
+          "volume": "",
+          "issue": "",
+          "publisher": "",
+          "libraryCatalog": "aclanthology.org",
+          "proceedingsTitle": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+          "conferenceName": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)"
+        },
+        "sourceURL": "https://aclanthology.org/N19-1423/",
+        "resolved": true,
+        "publicationStatus": "published",
+        "score": 1
+      }
+    },
+    {
+      "title": "Highly accurate protein structure prediction with AlphaFold",
+      "pass": true,
+      "statuses": [
+        {
+          "source": "Web",
+          "ok": true,
+          "count": 2
+        },
+        {
+          "source": "Crossref",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "source": "arXiv",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "source": "出版社官网 www.nature.com",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "source": "出版社官网 www.nature.com",
+          "ok": true,
+          "count": 1
+        }
+      ],
+      "discoveryURLs": [
+        "https://www.nature.com/articles/s41586-021-03819-2",
+        "https://www.nature.com/articles/s41586-021-03819-2.pdf"
+      ],
+      "summary": "找到候选发表记录：Nature。请核对作者与版本。",
+      "requests": [
+        "https://www.bing.com/search?q=%22Highly%20accurate%20protein%20structure%20prediction%20with%20AlphaFold%22&format=rss",
+        "https://api.crossref.org/works?query.title=Highly%20accurate%20protein%20structure%20prediction%20with%20AlphaFold&rows=12",
+        "https://export.arxiv.org/api/query?search_query=ti%3A%22Highly%20accurate%20protein%20structure%20prediction%20with%20AlphaFold%22&max_results=8",
+        "https://www.nature.com/articles/s41586-021-03819-2",
+        "https://www.nature.com/articles/s41586-021-03819-2.pdf"
+      ],
+      "matchingRecords": [
+        {
+          "source": "Publisher",
+          "item": {
+            "itemType": "journalArticle",
+            "title": "Highly accurate protein structure prediction with AlphaFold",
+            "creators": [
+              {
+                "creatorType": "author",
+                "firstName": "John",
+                "lastName": "Jumper"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Richard",
+                "lastName": "Evans"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Alexander",
+                "lastName": "Pritzel"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Tim",
+                "lastName": "Green"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Michael",
+                "lastName": "Figurnov"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Olaf",
+                "lastName": "Ronneberger"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Kathryn",
+                "lastName": "Tunyasuvunakool"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Russ",
+                "lastName": "Bates"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Augustin",
+                "lastName": "Žídek"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Anna",
+                "lastName": "Potapenko"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Alex",
+                "lastName": "Bridgland"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Clemens",
+                "lastName": "Meyer"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Simon A. A.",
+                "lastName": "Kohl"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Andrew J.",
+                "lastName": "Ballard"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Andrew",
+                "lastName": "Cowie"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Bernardino",
+                "lastName": "Romera-Paredes"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Stanislav",
+                "lastName": "Nikolov"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Rishub",
+                "lastName": "Jain"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Jonas",
+                "lastName": "Adler"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Trevor",
+                "lastName": "Back"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Stig",
+                "lastName": "Petersen"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "David",
+                "lastName": "Reiman"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Ellen",
+                "lastName": "Clancy"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Michal",
+                "lastName": "Zielinski"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Martin",
+                "lastName": "Steinegger"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Michalina",
+                "lastName": "Pacholska"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Tamas",
+                "lastName": "Berghammer"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Sebastian",
+                "lastName": "Bodenstein"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "David",
+                "lastName": "Silver"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Oriol",
+                "lastName": "Vinyals"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Andrew W.",
+                "lastName": "Senior"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Koray",
+                "lastName": "Kavukcuoglu"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Pushmeet",
+                "lastName": "Kohli"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Demis",
+                "lastName": "Hassabis"
+              }
+            ],
+            "date": "2021/08",
+            "DOI": "10.1038/s41586-021-03819-2",
+            "url": "https://www.nature.com/articles/s41586-021-03819-2",
+            "abstractNote": "Proteins are essential to life, and understanding their structure can facilitate a mechanistic understanding of their function. Through an enormous experimental effort1–4, the structures of around 100,000 unique proteins have been determined5, but this represents a small fraction of the billions of known protein sequences6,7. Structural coverage is bottlenecked by the months to years of painstaking effort required to determine a single protein structure. Accurate computational approaches are needed to address this gap and to enable large-scale structural bioinformatics. Predicting the three-dimensional structure that a protein will adopt based solely on its amino acid sequence—the structure prediction component of the ‘protein folding problem’8—has been an important open research problem for more than 50&nbsp;years9. Despite recent progress10–14, existing methods fall far&nbsp;short of atomic accuracy, especially when no homologous structure is available. Here we provide the first computational method that can regularly predict protein structures with atomic accuracy even in cases in which no similar structure is known. We validated an entirely redesigned version of our neural network-based model, AlphaFold, in the challenging 14th Critical Assessment of protein Structure Prediction (CASP14)15, demonstrating accuracy competitive with experimental structures in a majority of cases and greatly outperforming other methods. Underpinning the latest version of AlphaFold is a novel machine learning approach that incorporates physical and biological knowledge about protein structure, leveraging multi-sequence alignments, into the design of the deep learning algorithm. AlphaFold predicts protein structures with an accuracy competitive with experimental structures in the majority of cases using a novel deep learning architecture.",
+            "pages": "583-589",
+            "volume": "596",
+            "issue": "7873",
+            "publisher": "Nature Publishing Group",
+            "libraryCatalog": "www.nature.com",
+            "publicationTitle": "Nature"
+          },
+          "sourceURL": "https://www.nature.com/articles/s41586-021-03819-2",
+          "resolved": true,
+          "publicationStatus": "published",
+          "score": 1
+        },
+        {
+          "source": "Crossref",
+          "item": {
+            "itemType": "journalArticle",
+            "title": "Highly accurate protein structure prediction with AlphaFold",
+            "creators": [
+              {
+                "creatorType": "author",
+                "firstName": "John",
+                "lastName": "Jumper"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Richard",
+                "lastName": "Evans"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Alexander",
+                "lastName": "Pritzel"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Tim",
+                "lastName": "Green"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Michael",
+                "lastName": "Figurnov"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Olaf",
+                "lastName": "Ronneberger"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Kathryn",
+                "lastName": "Tunyasuvunakool"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Russ",
+                "lastName": "Bates"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Augustin",
+                "lastName": "Žídek"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Anna",
+                "lastName": "Potapenko"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Alex",
+                "lastName": "Bridgland"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Clemens",
+                "lastName": "Meyer"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Simon A. A.",
+                "lastName": "Kohl"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Andrew J.",
+                "lastName": "Ballard"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Andrew",
+                "lastName": "Cowie"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Bernardino",
+                "lastName": "Romera-Paredes"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Stanislav",
+                "lastName": "Nikolov"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Rishub",
+                "lastName": "Jain"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Jonas",
+                "lastName": "Adler"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Trevor",
+                "lastName": "Back"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Stig",
+                "lastName": "Petersen"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "David",
+                "lastName": "Reiman"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Ellen",
+                "lastName": "Clancy"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Michal",
+                "lastName": "Zielinski"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Martin",
+                "lastName": "Steinegger"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Michalina",
+                "lastName": "Pacholska"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Tamas",
+                "lastName": "Berghammer"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Sebastian",
+                "lastName": "Bodenstein"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "David",
+                "lastName": "Silver"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Oriol",
+                "lastName": "Vinyals"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Andrew W.",
+                "lastName": "Senior"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Koray",
+                "lastName": "Kavukcuoglu"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Pushmeet",
+                "lastName": "Kohli"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Demis",
+                "lastName": "Hassabis"
+              }
+            ],
+            "date": "2021-7-15",
+            "DOI": "10.1038/s41586-021-03819-2",
+            "url": "https://doi.org/10.1038/s41586-021-03819-2",
+            "publisher": "Springer Science and Business Media LLC",
+            "pages": "583-589",
+            "volume": "596",
+            "abstractNote": "Abstract",
+            "libraryCatalog": "Crossref",
+            "publicationTitle": "Nature",
+            "issue": "7873",
+            "ISSN": "0028-0836"
+          },
+          "sourceURL": "https://doi.org/10.1038/s41586-021-03819-2",
+          "publicationStatus": "published",
+          "resolved": true,
+          "score": 1
+        }
+      ],
+      "preferred": {
+        "source": "Publisher",
+        "item": {
+          "itemType": "journalArticle",
+          "title": "Highly accurate protein structure prediction with AlphaFold",
+          "creators": [
+            {
+              "creatorType": "author",
+              "firstName": "John",
+              "lastName": "Jumper"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Richard",
+              "lastName": "Evans"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Alexander",
+              "lastName": "Pritzel"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Tim",
+              "lastName": "Green"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Michael",
+              "lastName": "Figurnov"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Olaf",
+              "lastName": "Ronneberger"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Kathryn",
+              "lastName": "Tunyasuvunakool"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Russ",
+              "lastName": "Bates"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Augustin",
+              "lastName": "Žídek"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Anna",
+              "lastName": "Potapenko"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Alex",
+              "lastName": "Bridgland"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Clemens",
+              "lastName": "Meyer"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Simon A. A.",
+              "lastName": "Kohl"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Andrew J.",
+              "lastName": "Ballard"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Andrew",
+              "lastName": "Cowie"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Bernardino",
+              "lastName": "Romera-Paredes"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Stanislav",
+              "lastName": "Nikolov"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Rishub",
+              "lastName": "Jain"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Jonas",
+              "lastName": "Adler"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Trevor",
+              "lastName": "Back"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Stig",
+              "lastName": "Petersen"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "David",
+              "lastName": "Reiman"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Ellen",
+              "lastName": "Clancy"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Michal",
+              "lastName": "Zielinski"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Martin",
+              "lastName": "Steinegger"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Michalina",
+              "lastName": "Pacholska"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Tamas",
+              "lastName": "Berghammer"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Sebastian",
+              "lastName": "Bodenstein"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "David",
+              "lastName": "Silver"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Oriol",
+              "lastName": "Vinyals"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Andrew W.",
+              "lastName": "Senior"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Koray",
+              "lastName": "Kavukcuoglu"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Pushmeet",
+              "lastName": "Kohli"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Demis",
+              "lastName": "Hassabis"
+            }
+          ],
+          "date": "2021/08",
+          "DOI": "10.1038/s41586-021-03819-2",
+          "url": "https://www.nature.com/articles/s41586-021-03819-2",
+          "abstractNote": "Proteins are essential to life, and understanding their structure can facilitate a mechanistic understanding of their function. Through an enormous experimental effort1–4, the structures of around 100,000 unique proteins have been determined5, but this represents a small fraction of the billions of known protein sequences6,7. Structural coverage is bottlenecked by the months to years of painstaking effort required to determine a single protein structure. Accurate computational approaches are needed to address this gap and to enable large-scale structural bioinformatics. Predicting the three-dimensional structure that a protein will adopt based solely on its amino acid sequence—the structure prediction component of the ‘protein folding problem’8—has been an important open research problem for more than 50&nbsp;years9. Despite recent progress10–14, existing methods fall far&nbsp;short of atomic accuracy, especially when no homologous structure is available. Here we provide the first computational method that can regularly predict protein structures with atomic accuracy even in cases in which no similar structure is known. We validated an entirely redesigned version of our neural network-based model, AlphaFold, in the challenging 14th Critical Assessment of protein Structure Prediction (CASP14)15, demonstrating accuracy competitive with experimental structures in a majority of cases and greatly outperforming other methods. Underpinning the latest version of AlphaFold is a novel machine learning approach that incorporates physical and biological knowledge about protein structure, leveraging multi-sequence alignments, into the design of the deep learning algorithm. AlphaFold predicts protein structures with an accuracy competitive with experimental structures in the majority of cases using a novel deep learning architecture.",
+          "pages": "583-589",
+          "volume": "596",
+          "issue": "7873",
+          "publisher": "Nature Publishing Group",
+          "libraryCatalog": "www.nature.com",
+          "publicationTitle": "Nature"
+        },
+        "sourceURL": "https://www.nature.com/articles/s41586-021-03819-2",
+        "resolved": true,
+        "publicationStatus": "published",
+        "score": 1
+      }
+    },
+    {
+      "title": "DINOv2: Learning Robust Visual Features without Supervision",
+      "pass": true,
+      "validatedAt": "2026-10-13T13:51:00.306Z",
+      "statuses": [
+        {
+          "source": "Web",
+          "ok": true,
+          "count": 5
+        },
+        {
+          "source": "arXiv",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "source": "Crossref",
+          "ok": true,
+          "count": 11
+        },
+        {
+          "source": "出版社官网 arxiv.org",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "source": "出版社官网 github.com",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "source": "出版社官网 arxiv.org",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "source": "OpenReview",
+          "ok": true,
+          "count": 1
+        }
+      ],
+      "discoveryURLs": [
+        "https://arxiv.org/abs/2304.07193",
+        "https://arxiv.org/html/2304.07193v2",
+        "https://github.com/AI-Machine-Vision-Lab/dinov2-Learning-Robust-Visual-Features-without-Supervision",
+        "https://achilles-10.github.io/posts/paper/dinov2/",
+        "https://pierrefdz.github.io/publications/dinov2/"
+      ],
+      "summary": "找到候选发表记录：Transactions on Machine Learning Research。请核对作者与版本。",
+      "requests": [
+        "https://www.bing.com/search?q=%22DINOv2%3A%20Learning%20Robust%20Visual%20Features%20without%20Supervision%22&format=rss",
+        "https://api.crossref.org/works?query.title=DINOv2%3A%20Learning%20Robust%20Visual%20Features%20without%20Supervision&rows=12",
+        "https://export.arxiv.org/api/query?search_query=ti%3A%22DINOv2%3A%20Learning%20Robust%20Visual%20Features%20without%20Supervision%22&max_results=8",
+        "https://arxiv.org/abs/2304.07193",
+        "https://arxiv.org/html/2304.07193v2",
+        "https://github.com/AI-Machine-Vision-Lab/dinov2-Learning-Robust-Visual-Features-without-Supervision",
+        "https://api2.openreview.net/notes/search?term=DINOv2%3A%20Learning%20Robust%20Visual%20Features%20without%20Supervision&type=exact&content=title&source=forum&limit=20"
+      ],
+      "matchingRecords": [
+        {
+          "source": "OpenReview",
+          "item": {
+            "itemType": "journalArticle",
+            "title": "DINOv2: Learning Robust Visual Features without Supervision",
+            "creators": [
+              {
+                "creatorType": "author",
+                "firstName": "Maxime",
+                "lastName": "Oquab"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Timothée",
+                "lastName": "Darcet"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Théo",
+                "lastName": "Moutakanni"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Huy V.",
+                "lastName": "Vo"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Marc",
+                "lastName": "Szafraniec"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Vasil",
+                "lastName": "Khalidov"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Pierre",
+                "lastName": "Fernandez"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Daniel",
+                "lastName": "HAZIZA"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Francisco",
+                "lastName": "Massa"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Alaaeldin",
+                "lastName": "El-Nouby"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Mido",
+                "lastName": "Assran"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Nicolas",
+                "lastName": "Ballas"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Wojciech",
+                "lastName": "Galuba"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Russell",
+                "lastName": "Howes"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Po-Yao",
+                "lastName": "Huang"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Shang-Wen",
+                "lastName": "Li"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Ishan",
+                "lastName": "Misra"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Michael",
+                "lastName": "Rabbat"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Vasu",
+                "lastName": "Sharma"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Gabriel",
+                "lastName": "Synnaeve"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Hu",
+                "lastName": "Xu"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Herve",
+                "lastName": "Jegou"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Julien",
+                "lastName": "Mairal"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Patrick",
+                "lastName": "Labatut"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Armand",
+                "lastName": "Joulin"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Piotr",
+                "lastName": "Bojanowski"
+              }
+            ],
+            "date": "2024",
+            "abstractNote": "The recent breakthroughs in natural language processing for model pretraining on large quantities of data have opened the way for similar foundation models in computer vision. These models could greatly simplify the use of images in any system by producing all-purpose visual features, i.e., features that work across image distributions and tasks without finetuning. This work shows that existing pretraining methods, especially self-supervised methods, can produce such features if trained on enough curated data from diverse sources. We revisit existing approaches and combine different techniques to scale our pretraining in terms of data and model size. Most of the technical contributions aim at accelerating and stabilizing the training at scale. In terms of data, we propose an automatic pipeline to build a dedicated, diverse, and curated image dataset instead of uncurated data, as typically done in the self-supervised literature. In terms of models, we train a ViT model with 1B parameters and distill it into a series of smaller models that surpass the best available all-purpose features, OpenCLIP on most of the benchmarks at image and pixel levels.",
+            "url": "https://openreview.net/forum?id=a68SUt6zFt",
+            "libraryCatalog": "OpenReview",
+            "publicationTitle": "Transactions on Machine Learning Research"
+          },
+          "sourceURL": "https://openreview.net/forum?id=a68SUt6zFt",
+          "resolved": true,
+          "publicationStatus": "published",
+          "warnings": [],
+          "score": 1
+        },
+        {
+          "source": "Crossref",
+          "item": {
+            "itemType": "conferencePaper",
+            "title": "Learning neural audio features without supervision",
+            "creators": [
+              {
+                "creatorType": "author",
+                "firstName": "Sarthak",
+                "lastName": "Yadav"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Neil",
+                "lastName": "Zeghidour"
+              }
+            ],
+            "date": "2022-9-18",
+            "DOI": "10.21437/interspeech.2022-10834",
+            "url": "https://doi.org/10.21437/interspeech.2022-10834",
+            "publisher": "ISCA",
+            "pages": "396-400",
+            "volume": "",
+            "abstractNote": "",
+            "libraryCatalog": "Crossref",
+            "proceedingsTitle": "Interspeech 2022",
+            "conferenceName": "Interspeech 2022"
+          },
+          "sourceURL": "https://doi.org/10.21437/interspeech.2022-10834",
+          "publicationStatus": "published",
+          "resolved": true,
+          "score": 0.6153846153846154
+        },
+        {
+          "source": "Crossref",
+          "item": {
+            "itemType": "journalArticle",
+            "title": "Robust Classifiers without Robust Features",
+            "creators": [
+              {
+                "creatorType": "author",
+                "firstName": "Alan J.",
+                "lastName": "Katz"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Michael T.",
+                "lastName": "Gately"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Dean R.",
+                "lastName": "Collins"
+              }
+            ],
+            "date": "1990-12",
+            "DOI": "10.1162/neco.1990.2.4.472",
+            "url": "https://doi.org/10.1162/neco.1990.2.4.472",
+            "publisher": "MIT Press - Journals",
+            "pages": "472-479",
+            "volume": "2",
+            "abstractNote": "We develop a two-stage, modular neural network classifier and apply it to an automatic target recognition problem. The data are features extracted from infrared and TV images. We discuss the problem of robust classification in terms of a family of decision surfaces, the members of which are functions of a set of global variables. The global variables characterize how the feature space changes from one image to the next. We obtain rapid training times and robust classification with this modular neural network approach.",
+            "libraryCatalog": "Crossref",
+            "publicationTitle": "Neural Computation",
+            "issue": "4",
+            "ISSN": "0899-7667"
+          },
+          "sourceURL": "https://doi.org/10.1162/neco.1990.2.4.472",
+          "publicationStatus": "published",
+          "resolved": true,
+          "score": 0.5454545454545454
+        },
+        {
+          "source": "Crossref",
+          "item": {
+            "itemType": "conferencePaper",
+            "title": "Towards Robust Visual Continual Learning with Multi-Prototype Supervision",
+            "creators": [
+              {
+                "creatorType": "author",
+                "firstName": "Xiwei",
+                "lastName": "Liu"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Yulong",
+                "lastName": "Li"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Yichen",
+                "lastName": "Li"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Xinlin",
+                "lastName": "Zhuang"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Haolin",
+                "lastName": "Yang"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Huifa",
+                "lastName": "Li"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Imran",
+                "lastName": "Razzak"
+              }
+            ],
+            "date": "2026-5-3",
+            "DOI": "10.1109/icassp55912.2026.11464372",
+            "url": "https://doi.org/10.1109/icassp55912.2026.11464372",
+            "publisher": "IEEE",
+            "pages": "8867-8871",
+            "volume": "",
+            "abstractNote": "",
+            "libraryCatalog": "Crossref",
+            "proceedingsTitle": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+            "conferenceName": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+          },
+          "sourceURL": "https://doi.org/10.1109/icassp55912.2026.11464372",
+          "publicationStatus": "published",
+          "resolved": true,
+          "score": 0.5
+        },
+        {
+          "source": "Crossref",
+          "item": {
+            "itemType": "journalArticle",
+            "title": "Robust incremental learning of visual concepts without catastrophic forgetting",
+            "creators": [
+              {
+                "creatorType": "author",
+                "firstName": "Nicki",
+                "lastName": "Barari"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Xin",
+                "lastName": "Lian"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Christopher J.",
+                "lastName": "MacLellan"
+              }
+            ],
+            "date": "2026-4",
+            "DOI": "10.1016/j.cogsys.2026.101447",
+            "url": "https://doi.org/10.1016/j.cogsys.2026.101447",
+            "publisher": "Elsevier BV",
+            "pages": "101447",
+            "volume": "96",
+            "abstractNote": "",
+            "libraryCatalog": "Crossref",
+            "publicationTitle": "Cognitive Systems Research",
+            "issue": "",
+            "ISSN": "1389-0417"
+          },
+          "sourceURL": "https://doi.org/10.1016/j.cogsys.2026.101447",
+          "publicationStatus": "published",
+          "resolved": true,
+          "score": 0.5
+        },
+        {
+          "source": "Crossref",
+          "item": {
+            "itemType": "conferencePaper",
+            "title": "Self-Distillation Prototypes Network: Learning Robust Speaker Representations without Supervision",
+            "creators": [
+              {
+                "creatorType": "author",
+                "firstName": "Yafeng",
+                "lastName": "Chen"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Siqi",
+                "lastName": "Zheng"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Hui",
+                "lastName": "Wang"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Luyao",
+                "lastName": "Cheng"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Qian",
+                "lastName": "Chen"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Chong",
+                "lastName": "Deng"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Shiliang",
+                "lastName": "Zhang"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Wen",
+                "lastName": "Wang"
+              }
+            ],
+            "date": "2025-4-6",
+            "DOI": "10.1109/icassp49660.2025.10890786",
+            "url": "https://doi.org/10.1109/icassp49660.2025.10890786",
+            "publisher": "IEEE",
+            "pages": "1-5",
+            "volume": "",
+            "abstractNote": "",
+            "libraryCatalog": "Crossref",
+            "proceedingsTitle": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+            "conferenceName": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+          },
+          "sourceURL": "https://doi.org/10.1109/icassp49660.2025.10890786",
+          "publicationStatus": "published",
+          "resolved": true,
+          "score": 0.47058823529411764
+        },
+        {
+          "source": "Crossref",
+          "item": {
+            "itemType": "journalArticle",
+            "title": "cyMAEv2: learning robust cell representations in mass cytometry without supervision 4582",
+            "creators": [
+              {
+                "creatorType": "author",
+                "firstName": "Jaesik",
+                "lastName": "Kim"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Matei",
+                "lastName": "Ionita"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Matthew Eric",
+                "lastName": "Lee"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Jacob S.",
+                "lastName": "Leiby"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Yidi",
+                "lastName": "Huang"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Jonghyun",
+                "lastName": "Lee"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Yonghyun",
+                "lastName": "Nam"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Michelle L.",
+                "lastName": "McKeague"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Victoria",
+                "lastName": "Fang"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Sokratis A.",
+                "lastName": "Apostolidis"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Divij",
+                "lastName": "Mathew"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "",
+                "lastName": "Shwetank"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Ajinkya",
+                "lastName": "Pattekar"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Zahabia",
+                "lastName": "Rangwala"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Alexander",
+                "lastName": "Huang"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Amit",
+                "lastName": "Bar-Or"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Benjamin",
+                "lastName": "Abramoff"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Nuala",
+                "lastName": "Meyer"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Mark M.",
+                "lastName": "Painter"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Rennie",
+                "lastName": "Rhee"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Stephen",
+                "lastName": "Schuster"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Damian",
+                "lastName": "Maseda"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Allison R.",
+                "lastName": "Greenplate"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "E. John",
+                "lastName": "Wherry"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Dokyoon",
+                "lastName": "Kim"
+              }
+            ],
+            "date": "2025-11-1",
+            "DOI": "10.1093/jimmun/vkaf283.2249",
+            "url": "https://doi.org/10.1093/jimmun/vkaf283.2249",
+            "publisher": "Oxford University Press (OUP)",
+            "pages": "",
+            "volume": "214",
+            "abstractNote": "Abstract Description",
+            "libraryCatalog": "Crossref",
+            "publicationTitle": "The Journal of Immunology",
+            "issue": "Supplement_1",
+            "ISSN": "0022-1767"
+          },
+          "sourceURL": "https://doi.org/10.1093/jimmun/vkaf283.2249",
+          "publicationStatus": "published",
+          "resolved": true,
+          "score": 0.4444444444444444
+        },
+        {
+          "source": "Crossref",
+          "item": {
+            "itemType": "journalArticle",
+            "title": "Assessment of Stroke Onset Time Based on DINOv2 Visual Features",
+            "creators": [
+              {
+                "creatorType": "author",
+                "firstName": "Dr Jin-jin",
+                "lastName": "Wang"
+              }
+            ],
+            "date": "2024-10",
+            "DOI": "10.1016/j.jmir.2024.101479",
+            "url": "https://doi.org/10.1016/j.jmir.2024.101479",
+            "publisher": "Elsevier BV",
+            "pages": "101479",
+            "volume": "55",
+            "abstractNote": "",
+            "libraryCatalog": "Crossref",
+            "publicationTitle": "Journal of Medical Imaging and Radiation Sciences",
+            "issue": "3",
+            "ISSN": "1939-8654"
+          },
+          "sourceURL": "https://doi.org/10.1016/j.jmir.2024.101479",
+          "publicationStatus": "published",
+          "resolved": true,
+          "score": 0.35294117647058826
+        }
+      ],
+      "preferred": {
+        "source": "OpenReview",
+        "item": {
+          "itemType": "journalArticle",
+          "title": "DINOv2: Learning Robust Visual Features without Supervision",
+          "creators": [
+            {
+              "creatorType": "author",
+              "firstName": "Maxime",
+              "lastName": "Oquab"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Timothée",
+              "lastName": "Darcet"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Théo",
+              "lastName": "Moutakanni"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Huy V.",
+              "lastName": "Vo"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Marc",
+              "lastName": "Szafraniec"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Vasil",
+              "lastName": "Khalidov"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Pierre",
+              "lastName": "Fernandez"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Daniel",
+              "lastName": "HAZIZA"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Francisco",
+              "lastName": "Massa"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Alaaeldin",
+              "lastName": "El-Nouby"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Mido",
+              "lastName": "Assran"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Nicolas",
+              "lastName": "Ballas"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Wojciech",
+              "lastName": "Galuba"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Russell",
+              "lastName": "Howes"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Po-Yao",
+              "lastName": "Huang"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Shang-Wen",
+              "lastName": "Li"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Ishan",
+              "lastName": "Misra"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Michael",
+              "lastName": "Rabbat"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Vasu",
+              "lastName": "Sharma"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Gabriel",
+              "lastName": "Synnaeve"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Hu",
+              "lastName": "Xu"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Herve",
+              "lastName": "Jegou"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Julien",
+              "lastName": "Mairal"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Patrick",
+              "lastName": "Labatut"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Armand",
+              "lastName": "Joulin"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Piotr",
+              "lastName": "Bojanowski"
+            }
+          ],
+          "date": "2024",
+          "abstractNote": "The recent breakthroughs in natural language processing for model pretraining on large quantities of data have opened the way for similar foundation models in computer vision. These models could greatly simplify the use of images in any system by producing all-purpose visual features, i.e., features that work across image distributions and tasks without finetuning. This work shows that existing pretraining methods, especially self-supervised methods, can produce such features if trained on enough curated data from diverse sources. We revisit existing approaches and combine different techniques to scale our pretraining in terms of data and model size. Most of the technical contributions aim at accelerating and stabilizing the training at scale. In terms of data, we propose an automatic pipeline to build a dedicated, diverse, and curated image dataset instead of uncurated data, as typically done in the self-supervised literature. In terms of models, we train a ViT model with 1B parameters and distill it into a series of smaller models that surpass the best available all-purpose features, OpenCLIP on most of the benchmarks at image and pixel levels.",
+          "url": "https://openreview.net/forum?id=a68SUt6zFt",
+          "libraryCatalog": "OpenReview",
+          "publicationTitle": "Transactions on Machine Learning Research"
+        },
+        "sourceURL": "https://openreview.net/forum?id=a68SUt6zFt",
+        "resolved": true,
+        "publicationStatus": "published",
+        "warnings": [],
+        "score": 1
+      }
+    }
+  ],
+  "pass": true,
+  "removedSourcesNotRequested": true
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        xmlns:html="http://www.w3.org/1999/xhtml"
+        title="论文元数据检索" width="1060" height="760" persist="width height">
+  <html:link rel="stylesheet" href="chrome://paper-metadata-search/content/search.css"/>
+  <html:div id="app">
+    <html:header>
+      <html:h1>论文元数据检索</html:h1>
+      <html:p id="context">正在读取条目…</html:p>
+      <html:form id="search-form">
+        <html:label for="query">论文标题（也支持 DOI、arXiv ID 或链接）</html:label>
+        <html:div class="query-row">
+          <html:input id="query" type="text" placeholder="Memory Mosaics at Scale" autocomplete="off"/>
+          <html:button id="search" type="submit" disabled="disabled">搜索</html:button>
+          <html:button id="cancel" type="button" hidden="hidden">取消</html:button>
+        </html:div>
+        <html:label class="hint"><html:input id="auto-fill" type="checkbox" checked="checked"/> 高置信匹配后自动补全已有条目的空缺字段；类型和字段冲突由我确认</html:label>
+        <html:details>
+          <html:summary>检索来源与官网补查（高级）</html:summary>
+          <html:div id="sources" class="sources">
+            <html:label><html:input type="checkbox" value="Crossref" checked="checked"/> Crossref</html:label>
+            <html:label><html:input type="checkbox" value="Web" checked="checked"/> 按标题联网发现出处并检索对应官网</html:label>
+            <html:label><html:input type="checkbox" value="arXiv" checked="checked"/> arXiv</html:label>
+          </html:div>
+        </html:details>
+      </html:form>
+      <html:p id="hints" class="hint"/>
+      <html:p class="hint">先按标题联网发现发表出处，再核对对应官网和 DOI 登记记录；支持 OpenReview、CVF、ACL、PMLR 等来源。预印本单独保留。</html:p>
+    </html:header>
+    <html:div id="status" role="status" aria-live="polite">搜索后自动补全唯一且标题、完整作者及版本匹配的条目；其他候选需手动核对。</html:div>
+    <html:div id="provider-status"/>
+    <html:p id="publication-summary" class="hint"/>
+    <html:main>
+      <html:section aria-label="候选论文" class="results-panel">
+        <html:h2>候选论文 <html:span id="count"/></html:h2>
+        <html:div id="results"><html:p class="empty">输入完整标题可提高检索准确性。</html:p></html:div>
+      </html:section>
+      <html:section aria-label="字段预览" class="preview-panel">
+        <html:div class="preview-toolbar">
+          <html:h2>元数据预览</html:h2>
+          <html:button id="select-all" type="button" disabled="disabled" title="勾选当前候选所有可选字段及类型修正；点击更新后才保存。">全选可选项</html:button>
+        </html:div>
+        <html:div id="preview"><html:p class="empty">选择左侧候选查看来源与字段。</html:p></html:div>
+      </html:section>
+    </html:main>
+    <html:footer>
+      <html:span id="write-note">一致字段已勾选并锁定；勾选冲突字段表示允许替换。全选包含类型修正，点击更新后才保存。</html:span>
+      <html:button id="apply" type="button" disabled="disabled">写入选中字段</html:button>
+      <html:button id="close" type="button">关闭</html:button>
+    </html:footer>
+  </html:div>
+  <html:script src="chrome://paper-metadata-search/content/search.js"/>
+</window>

@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-13T13:24:14.975Z",
+  "results": [
+    {
+      "name": "bing",
+      "url": "https://www.bing.com/search?format=rss&q=%22LoRA%3A%20Low-Rank%20Adaptation%20of%20Large%20Language%20Models%22",
+      "status": 200,
+      "bytes": 5274,
+      "begin": "<?xml version=\"1.0\" encoding=\"utf-8\" ?><rss version=\"2.0\"><channel><title>必应：\"LoRA: Low-Rank Adaptation of Large Language Models\"</title><link>http://www.bing.com:80/search?q=%22Lo"
+    },
+    {
+      "name": "duckduckgo",
+      "error": "fetch failed"
+    },
+    {
+      "name": "openreview-search",
+      "url": "https://api2.openreview.net/notes/search?term=LoRA%3A%20Low-Rank%20Adaptation%20of%20Large%20Language%20Models&content=title&limit=10",
+      "status": 200,
+      "bytes": 27989,
+      "begin": "{\"notes\":[{\"content\":{\"venue\":{\"value\":\"ICML 2026 regular\"},\"keywords\":{\"value\":[\"Bayesian\",\"low-rank\",\"LLMs\"]},\"_bibtex\":{\"value\":\"@inproceedings{\\nlin2026bayesianlora,\\ntitle={Ba"
+    },
+    {
+      "name": "cvf",
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Liu_Swin_Transformer_Hierarchical_Vision_Transformer_Using_Shifted_Windows_ICCV_2021_paper.html",
+      "status": 200,
+      "bytes": 6849,
+      "begin": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta content=\"text/html; charset=UTF-8\" http-equiv=\"content-type\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale"
+    }
+  ]
+}

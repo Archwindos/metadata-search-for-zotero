@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Paper Metadata Search",
+  "version": "0.4.0",
+  "description": "Discover publication venues by title, retrieve publisher and conference metadata, and fill missing fields with conflict review.",
+  "applications": {
+    "zotero": {
+      "id": "paper-metadata-search@local.zotero",
+      "update_url": "https://paper-metadata-search.invalid/updates.json",
+      "strict_min_version": "10.0",
+      "strict_max_version": "10.0.*"
+    }
+  }
+}

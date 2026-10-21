@@ -1,0 +1,843 @@
+{
+  "version": "10.0.6",
+  "at": "2026-10-12T02:52:09.865Z",
+  "checks": [
+    {
+      "name": "Plugin startup",
+      "pass": true,
+      "details": {
+        "menus": [
+          "paper-metadata-search\\@local\\.zotero-paper-metadata-search-tools",
+          "paper-metadata-search\\@local\\.zotero-paper-metadata-search-item"
+        ]
+      }
+    },
+    {
+      "name": "Isolated data directory",
+      "pass": true,
+      "details": "<PROJECT_ROOT>\\.runtime-test\\run-20261012-105207\\data"
+    },
+    {
+      "name": "PDF title reconstructed from word coordinates",
+      "pass": true,
+      "details": {
+        "label": "为 PDF 创建或补充父条目：memory-mosaics",
+        "query": "Memory Mosaics at scale",
+        "hints": {
+          "title": "Memory Mosaics at scale",
+          "filenameTitle": "memory mosaics",
+          "arxiv": "",
+          "doi": ""
+        }
+      }
+    },
+    {
+      "name": "Formal title search",
+      "pass": true,
+      "details": [
+        {
+          "source": "arXiv",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "source": "DBLP",
+          "ok": false,
+          "message": "需要网站人机验证；未绕过验证。可暂时关闭此来源。"
+        },
+        {
+          "source": "Crossref",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "source": "NeurIPS",
+          "ok": true,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Official bibliography",
+      "pass": true,
+      "details": {
+        "itemType": "conferencePaper",
+        "title": "Memory Mosaics at scale",
+        "creators": [
+          {
+            "firstName": "Jianyu",
+            "lastName": "Zhang",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Leon",
+            "lastName": "Bottou",
+            "creatorType": "author"
+          }
+        ],
+        "proceedingsTitle": "Advances in Neural Information Processing Systems",
+        "date": "2025",
+        "volume": "38",
+        "DOI": "10.52202/085713-1299",
+        "pages": "38929–38956",
+        "abstractNote": "Memory Mosaics, networks of associative memories, have demonstrated appealing compositional and in-context learning capabilities on medium-scale networks (GPT-2 scale) and synthetic small datasets. This work shows that these favorable properties remain when we scale memory mosaics to large language model sizes (llama-8B scale) and real-world datasets. To this end, we scale memory mosaics to 10B size, we train them on one trillion tokens, we introduce a couple architectural modifications (memory mosaics v2), we assess their capabilities across three evaluation dimensions: training-knowledge storage, new-knowledge storage, and in-context learning. Throughout the evaluation, memory mosaics v2 match transformers on the learning of training knowledge (first dimension) and significantly outperforms transformers on carrying out new tasks at inference time (second and third dimensions). These improvements cannot be easily replicated by simply increasing the training data for transformers. A memory mosaics v2 trained on one trillion tokens still perform better on these tasks than a transformer trained on eight trillion tokens.",
+        "conferenceName": "NeurIPS 2025",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3767842e2ebee900236f534855aa2c36-Abstract-Conference.html",
+        "libraryCatalog": "NeurIPS Proceedings",
+        "publicationTitle": "Advances in Neural Information Processing Systems",
+        "publisher": "Curran Associates, Inc."
+      }
+    },
+    {
+      "name": "arXiv fallback title search",
+      "pass": true,
+      "details": {
+        "itemType": "preprint",
+        "title": "Memory Mosaics at scale",
+        "date": "2025-07-04",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Jianyu",
+            "lastName": "Zhang"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Léon",
+            "lastName": "Bottou"
+          }
+        ],
+        "abstractNote": "Memory Mosaics [Zhang et al., 2025], networks of associative memories, have demonstrated appealing compositional and in-context learning capabilities on medium-scale networks (GPT-2 scale) and synthetic small datasets. This work shows that these favorable properties remain when we scale memory mosaics to large language model sizes (llama-8B scale) and real-world datasets. To this end, we scale memory mosaics to 10B size, we train them on one trillion tokens, we introduce a couple architectural modifications (\"Memory Mosaics v2\"), we assess their capabilities across three evaluation dimensions: training-knowledge storage, new-knowledge storage, and in-context learning. Throughout the evaluation, memory mosaics v2 match transformers on the learning of training knowledge (first dimension) and significantly outperforms transformers on carrying out new tasks at inference time (second and third dimensions). These improvements cannot be easily replicated by simply increasing the training data for transformers. A memory mosaics v2 trained on one trillion tokens still perform better on these tasks than a transformer trained on eight trillion tokens.",
+        "url": "https://arxiv.org/abs/2507.03285v3",
+        "repository": "arXiv",
+        "archiveID": "2507.03285v3",
+        "DOI": "10.48550/arXiv.2507.03285",
+        "libraryCatalog": "arXiv"
+      }
+    },
+    {
+      "name": "arXiv preprint saved with correct type",
+      "pass": true,
+      "details": {
+        "key": "CQ6DQ9Y7",
+        "version": 0,
+        "itemType": "preprint",
+        "title": "Memory Mosaics at scale",
+        "abstractNote": "Memory Mosaics [Zhang et al., 2025], networks of associative memories, have demonstrated appealing compositional and in-context learning capabilities on medium-scale networks (GPT-2 scale) and synthetic small datasets. This work shows that these favorable properties remain when we scale memory mosaics to large language model sizes (llama-8B scale) and real-world datasets. To this end, we scale memory mosaics to 10B size, we train them on one trillion tokens, we introduce a couple architectural modifications (\"Memory Mosaics v2\"), we assess their capabilities across three evaluation dimensions: training-knowledge storage, new-knowledge storage, and in-context learning. Throughout the evaluation, memory mosaics v2 match transformers on the learning of training knowledge (first dimension) and significantly outperforms transformers on carrying out new tasks at inference time (second and third dimensions). These improvements cannot be easily replicated by simply increasing the training data for transformers. A memory mosaics v2 trained on one trillion tokens still perform better on these tasks than a transformer trained on eight trillion tokens.",
+        "date": "2025-07-04",
+        "DOI": "10.48550/arXiv.2507.03285",
+        "url": "https://arxiv.org/abs/2507.03285v3",
+        "libraryCatalog": "arXiv",
+        "repository": "arXiv",
+        "archiveID": "2507.03285v3",
+        "creators": [
+          {
+            "firstName": "Jianyu",
+            "lastName": "Zhang",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Léon",
+            "lastName": "Bottou",
+            "creatorType": "author"
+          }
+        ],
+        "tags": [],
+        "collections": [
+          "B9ZSUFMD"
+        ],
+        "relations": {},
+        "dateAdded": "2026-10-12T02:52:46Z",
+        "dateModified": "2026-10-12T02:52:46Z"
+      }
+    },
+    {
+      "name": "PDF parent created",
+      "pass": true,
+      "details": {
+        "parentID": 3,
+        "createdID": 3
+      }
+    },
+    {
+      "name": "Collection preserved",
+      "pass": true,
+      "details": [
+        1
+      ]
+    },
+    {
+      "name": "PDF file preserved",
+      "pass": true,
+      "details": "memory-mosaics.pdf"
+    },
+    {
+      "name": "Existing fields protected by default",
+      "pass": true,
+      "details": [
+        {
+          "name": "title",
+          "before": "User edited title",
+          "after": "Memory Mosaics at scale",
+          "checked": false,
+          "changed": true
+        },
+        {
+          "name": "abstractNote",
+          "before": "User written abstract",
+          "after": "Memory Mosaics, networks of associative memories, have demonstrated appealing compositional and in-context learning capabilities on medium-scale networks (GPT-2 scale) and synthetic small datasets. This work shows that these favorable properties remain when we scale memory mosaics to large language model sizes (llama-8B scale) and real-world datasets. To this end, we scale memory mosaics to 10B size, we train them on one trillion tokens, we introduce a couple architectural modifications (memory mosaics v2), we assess their capabilities across three evaluation dimensions: training-knowledge storage, new-knowledge storage, and in-context learning. Throughout the evaluation, memory mosaics v2 match transformers on the learning of training knowledge (first dimension) and significantly outperforms transformers on carrying out new tasks at inference time (second and third dimensions). These improvements cannot be easily replicated by simply increasing the training data for transformers. A memory mosaics v2 trained on one trillion tokens still perform better on these tasks than a transformer trained on eight trillion tokens.",
+          "checked": false,
+          "changed": true
+        },
+        {
+          "name": "date",
+          "before": "2025",
+          "after": "2025",
+          "checked": false,
+          "changed": false
+        },
+        {
+          "name": "DOI",
+          "before": "10.52202/085713-1299",
+          "after": "10.52202/085713-1299",
+          "checked": false,
+          "changed": false
+        },
+        {
+          "name": "url",
+          "before": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3767842e2ebee900236f534855aa2c36-Abstract-Conference.html",
+          "after": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3767842e2ebee900236f534855aa2c36-Abstract-Conference.html",
+          "checked": false,
+          "changed": false
+        },
+        {
+          "name": "proceedingsTitle",
+          "before": "Advances in Neural Information Processing Systems",
+          "after": "Advances in Neural Information Processing Systems",
+          "checked": false,
+          "changed": false
+        },
+        {
+          "name": "conferenceName",
+          "before": "NeurIPS 2025",
+          "after": "NeurIPS 2025",
+          "checked": false,
+          "changed": false
+        },
+        {
+          "name": "publisher",
+          "before": "Curran Associates, Inc.",
+          "after": "Curran Associates, Inc.",
+          "checked": false,
+          "changed": false
+        },
+        {
+          "name": "volume",
+          "before": "38",
+          "after": "38",
+          "checked": false,
+          "changed": false
+        },
+        {
+          "name": "pages",
+          "before": "38929–38956",
+          "after": "38929–38956",
+          "checked": false,
+          "changed": false
+        },
+        {
+          "name": "libraryCatalog",
+          "before": "NeurIPS Proceedings",
+          "after": "NeurIPS Proceedings",
+          "checked": false,
+          "changed": false
+        }
+      ]
+    },
+    {
+      "name": "Existing title and abstract preserved",
+      "pass": true,
+      "details": {
+        "key": "LG5PE7HM",
+        "version": 0,
+        "itemType": "conferencePaper",
+        "title": "User edited title",
+        "abstractNote": "User written abstract",
+        "date": "2025",
+        "DOI": "10.52202/085713-1299",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3767842e2ebee900236f534855aa2c36-Abstract-Conference.html",
+        "libraryCatalog": "NeurIPS Proceedings",
+        "volume": "38",
+        "publisher": "Curran Associates, Inc.",
+        "pages": "38929–38956",
+        "proceedingsTitle": "Advances in Neural Information Processing Systems",
+        "conferenceName": "NeurIPS 2025",
+        "creators": [
+          {
+            "firstName": "Jianyu",
+            "lastName": "Zhang",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Leon",
+            "lastName": "Bottou",
+            "creatorType": "author"
+          }
+        ],
+        "tags": [],
+        "collections": [
+          "B9ZSUFMD"
+        ],
+        "relations": {},
+        "dateAdded": "2026-10-12T02:52:46Z",
+        "dateModified": "2026-10-12T02:52:46Z"
+      }
+    },
+    {
+      "name": "Concurrent edits protected",
+      "pass": true
+    },
+    {
+      "name": "Dialog opened",
+      "pass": true
+    },
+    {
+      "name": "Dialog initialized",
+      "pass": true
+    },
+    {
+      "name": "Candidate list rendered",
+      "pass": true
+    },
+    {
+      "name": "Field preview rendered",
+      "pass": true
+    },
+    {
+      "name": "Preview has unselected existing title",
+      "pass": true
+    },
+    {
+      "name": "UI layout fits",
+      "pass": true,
+      "details": {
+        "width": 1060,
+        "height": 761
+      }
+    },
+    {
+      "name": "Explicit UI overwrite saved",
+      "pass": true,
+      "details": "已保存：Memory Mosaics at scale。可在文献库中查看。"
+    },
+    {
+      "name": "Selection failure does not report a failed save",
+      "pass": true,
+      "details": "已保存：Memory Mosaics at scale。可在文献库中查看。"
+    },
+    {
+      "name": "Zotero undo restores existing title",
+      "pass": true,
+      "details": "Concurrent edit"
+    },
+    {
+      "name": "Both user papers have preprint types and arXiv DOIs",
+      "pass": true,
+      "details": [
+        {
+          "source": "arXiv",
+          "item": {
+            "itemType": "preprint",
+            "title": "From Data Statistics to Feature Geometry: How Correlations Shape Superposition",
+            "date": "2026-03-10",
+            "creators": [
+              {
+                "creatorType": "author",
+                "firstName": "Lucas",
+                "lastName": "Prieto"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Edward",
+                "lastName": "Stevinson"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Melih",
+                "lastName": "Barsbey"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Tolga",
+                "lastName": "Birdal"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Pedro A. M.",
+                "lastName": "Mediano"
+              }
+            ],
+            "abstractNote": "A central idea in mechanistic interpretability is that neural networks represent more features than they have dimensions, arranging them in superposition to form an over-complete basis. This framing has been influential, motivating dictionary learning approaches such as sparse autoencoders. However, superposition has mostly been studied in idealized settings where features are sparse and uncorrelated. In these settings, superposition is typically understood as introducing interference that must be minimized geometrically and filtered out by non-linearities such as ReLUs, yielding local structures like regular polytopes. We show that this account is incomplete for realistic data by introducing Bag-of-Words Superposition (BOWS), a controlled setting to encode binary bag-of-words representations of internet text in superposition. Using BOWS, we find that when features are correlated, interference can be constructive rather than just noise to be filtered out. This is achieved by arranging features according to their co-activation patterns, making interference between active features constructive, while still using ReLUs to avoid false positives. We show that this kind of arrangement is more prevalent in models trained with weight decay and naturally gives rise to semantic clusters and cyclical structures which have been observed in real language models yet were not explained by the standard picture of superposition. Code for this paper can be found at https://github.com/LucasPrietoAl/correlations-feature-geometry.",
+            "url": "https://arxiv.org/abs/2603.09972v1",
+            "repository": "arXiv",
+            "archiveID": "2603.09972v1",
+            "DOI": "10.48550/arXiv.2603.09972",
+            "libraryCatalog": "arXiv"
+          },
+          "sourceURL": "https://arxiv.org/abs/2603.09972v1",
+          "resolved": true,
+          "score": 1
+        },
+        {
+          "source": "arXiv",
+          "item": {
+            "itemType": "preprint",
+            "title": "From Directions to Regions: Decomposing Activations in Language Models via Local Geometry",
+            "date": "2026-02-02",
+            "creators": [
+              {
+                "creatorType": "author",
+                "firstName": "Or",
+                "lastName": "Shafran"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Shaked",
+                "lastName": "Ronen"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Omri",
+                "lastName": "Fahn"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Shauli",
+                "lastName": "Ravfogel"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Atticus",
+                "lastName": "Geiger"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Mor",
+                "lastName": "Geva"
+              }
+            ],
+            "abstractNote": "Activation decomposition methods in language models are tightly coupled to geometric assumptions on how concepts are realized in activation space. Existing approaches search for individual global directions, implicitly assuming linear separability, which overlooks concepts with nonlinear or multi-dimensional structure. In this work, we leverage Mixture of Factor Analyzers (MFA) as a scalable, unsupervised alternative that models the activation space as a collection of Gaussian regions with their local covariance structure. MFA decomposes activations into two compositional geometric objects: the region's centroid in activation space, and the local variation from the centroid. We train large-scale MFAs for Llama-3.1-8B and Gemma-2-2B, and show they capture complex, nonlinear structures in activation space. Moreover, evaluations on localization and steering benchmarks show that MFA outperforms unsupervised baselines, is competitive with supervised localization methods, and often achieves stronger steering performance than sparse autoencoders. Together, our findings position local geometry, expressed through subspaces, as a promising unit of analysis for scalable concept discovery and model control, accounting for complex structures that isolated directions fail to capture.",
+            "url": "https://arxiv.org/abs/2602.02464v2",
+            "repository": "arXiv",
+            "archiveID": "2602.02464v2",
+            "DOI": "10.48550/arXiv.2602.02464",
+            "libraryCatalog": "arXiv"
+          },
+          "sourceURL": "https://arxiv.org/abs/2602.02464v2",
+          "resolved": true,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "name": "Legacy arXiv journal item matches by full authors and version",
+      "pass": true
+    },
+    {
+      "name": "Ambiguous search does not choose an automatic candidate",
+      "pass": true
+    },
+    {
+      "name": "Search automatically fills the missing DOI",
+      "pass": true,
+      "details": "已自动补全：DOI、元数据来源。已有字段未覆盖；可用 Zotero 撤销。"
+    },
+    {
+      "name": "Auto-fill preserves type, title, authors and conflicting abstract",
+      "pass": true,
+      "details": {
+        "key": "427JXDES",
+        "version": 0,
+        "itemType": "journalArticle",
+        "title": "from directions to regions: decomposing activations in language models via local geometry",
+        "abstractNote": "User's own abstract must remain",
+        "date": "2026-02-02",
+        "DOI": "10.48550/arXiv.2602.02464",
+        "url": "https://arxiv.org/abs/2602.02464v2",
+        "libraryCatalog": "arXiv",
+        "extra": "User note",
+        "issue": "Keep this issue",
+        "creators": [
+          {
+            "firstName": "Or",
+            "lastName": "Shafran",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Shaked",
+            "lastName": "Ronen",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Omri",
+            "lastName": "Fahn",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Shauli",
+            "lastName": "Ravfogel",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Atticus",
+            "lastName": "Geiger",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Mor",
+            "lastName": "Geva",
+            "creatorType": "author"
+          }
+        ],
+        "tags": [
+          {
+            "tag": "Keep this tag"
+          }
+        ],
+        "collections": [
+          "B9ZSUFMD"
+        ],
+        "relations": {},
+        "dateAdded": "2026-10-12T02:53:46Z",
+        "dateModified": "2026-10-12T02:53:47Z"
+      }
+    },
+    {
+      "name": "Type conflict requires explicit selection",
+      "pass": true
+    },
+    {
+      "name": "Repeated auto-fill has no additional writes",
+      "pass": true
+    },
+    {
+      "name": "Type conversion preview includes arXiv fields and preservation",
+      "pass": true,
+      "details": "arXiv · 预印本打开元数据来源已自动补全：DOI、元数据来源。已有字段未覆盖；可用 Zotero 撤销。这是预印本记录，不能据此推断已被会议或期刊接收。条目类型不同。可勾选类型修正；无法迁移的已有信息会保存在“其他”字段。将条目类型从“期刊论文”改为“预印本”转换后保留在“其他”：Original issue: Keep this issue标题现有：from directions to regions: decomposing activations in language models via local geometry候选：From Directions to Regions: Decomposing Activations in Language Models via Local Geometry作者现有：Or Shafran; Shaked Ronen; Omri Fahn; Shauli Ravfogel; Atticus Geiger; Mor Geva候选：Or Shafran; Shaked Ronen; Omri Fahn; Shauli Ravfogel; Atticus Geiger; Mor Geva与现有字段一致日期现有：2026-02-02候选：2026-02-02与现有字段一致DOI现有：10.48550/arXiv.2602.02464候选：10.48550/arXiv.2602.02464与现有字段一致论文链接现有：https://arxiv.org/abs/2602.02464v2候选：https://arxiv.org/abs/2602.02464v2与现有字段一致预印本平台写入：arXiv预印本编号写入：2602.02464v2元数据来源现有：arXiv候选：arXiv与现有字段一致摘要现有：User's own abstract must remain候选：Activation decomposition methods in language models are tightly coupled to geometric assumptions on how concepts are realized in activation space. Existing approaches search for individual global directions, implicitly assuming linear separability, which overlooks concepts with nonlinear or multi-dimensional structure. In this work, we leverage Mixture of Factor Analyzers (MFA) as a scalable, unsupervised alternative that models the activation space as a collection of Gaussian regions with their local covariance structure. MFA decomposes activations into two compositional geometric objects: the region's centroid in activation space, and the local variation from the centroid. We train large-scale MFAs for Llama-3.1-8B and Gemma-2-2B, and show they capture complex, nonlinear structures in activation space. Moreover, evaluations on localization and steering benchmarks show that MFA outperforms unsupervised baselines, is competitive with supervised localization methods, and often achieves stronger steering performance than sparse autoencoders. Together, our findings position local geometry, expressed through subspaces, as a promising unit of analysis for scalable concept discovery and model control, accounting for complex structures that isolated directions fail to capture."
+    },
+    {
+      "name": "Explicit type correction saves a complete preprint",
+      "pass": true,
+      "details": {
+        "key": "427JXDES",
+        "version": 0,
+        "itemType": "preprint",
+        "title": "from directions to regions: decomposing activations in language models via local geometry",
+        "abstractNote": "User's own abstract must remain",
+        "date": "2026-02-02",
+        "DOI": "10.48550/arXiv.2602.02464",
+        "url": "https://arxiv.org/abs/2602.02464v2",
+        "libraryCatalog": "arXiv",
+        "extra": "User note\nOriginal issue: Keep this issue",
+        "repository": "arXiv",
+        "archiveID": "2602.02464v2",
+        "creators": [
+          {
+            "firstName": "Or",
+            "lastName": "Shafran",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Shaked",
+            "lastName": "Ronen",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Omri",
+            "lastName": "Fahn",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Shauli",
+            "lastName": "Ravfogel",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Atticus",
+            "lastName": "Geiger",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Mor",
+            "lastName": "Geva",
+            "creatorType": "author"
+          }
+        ],
+        "tags": [
+          {
+            "tag": "Keep this tag"
+          }
+        ],
+        "collections": [
+          "B9ZSUFMD"
+        ],
+        "relations": {},
+        "dateAdded": "2026-10-12T02:53:46Z",
+        "dateModified": "2026-10-12T02:53:47Z"
+      }
+    },
+    {
+      "name": "Type correction preserves original extra and incompatible fields",
+      "pass": true,
+      "details": "User note\nOriginal issue: Keep this issue"
+    },
+    {
+      "name": "Type correction preserves attachment collection tags and authors",
+      "pass": true
+    },
+    {
+      "name": "Undo restores type and type-specific fields",
+      "pass": true,
+      "details": {
+        "key": "427JXDES",
+        "version": 0,
+        "itemType": "journalArticle",
+        "title": "from directions to regions: decomposing activations in language models via local geometry",
+        "abstractNote": "User's own abstract must remain",
+        "date": "2026-02-02",
+        "DOI": "10.48550/arXiv.2602.02464",
+        "url": "https://arxiv.org/abs/2602.02464v2",
+        "libraryCatalog": "arXiv",
+        "extra": "User note",
+        "publisher": "arXiv",
+        "issue": "Keep this issue",
+        "creators": [
+          {
+            "firstName": "Or",
+            "lastName": "Shafran",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Shaked",
+            "lastName": "Ronen",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Omri",
+            "lastName": "Fahn",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Shauli",
+            "lastName": "Ravfogel",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Atticus",
+            "lastName": "Geiger",
+            "creatorType": "author"
+          },
+          {
+            "firstName": "Mor",
+            "lastName": "Geva",
+            "creatorType": "author"
+          }
+        ],
+        "tags": [
+          {
+            "tag": "Keep this tag"
+          }
+        ],
+        "collections": [
+          "B9ZSUFMD"
+        ],
+        "relations": {},
+        "dateAdded": "2026-10-12T02:53:46Z",
+        "dateModified": "2026-10-12T02:53:47Z"
+      }
+    },
+    {
+      "name": "Undo also reverses automatic fill",
+      "pass": true
+    },
+    {
+      "name": "Automatic write rejects a concurrent identifier conflict",
+      "pass": true
+    },
+    {
+      "name": "Type correction rejects concurrent edits to preserved fields",
+      "pass": true
+    }
+  ],
+  "addonVersion": "0.2.0",
+  "pdfHints": {
+    "label": "为 PDF 创建或补充父条目：memory-mosaics",
+    "query": "Memory Mosaics at scale",
+    "hints": {
+      "title": "Memory Mosaics at scale",
+      "filenameTitle": "memory mosaics",
+      "arxiv": "",
+      "doi": ""
+    }
+  },
+  "nativeRecognition": {
+    "outcome": "no-match"
+  },
+  "providers": [
+    {
+      "source": "arXiv",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "DBLP",
+      "ok": false,
+      "message": "需要网站人机验证；未绕过验证。可暂时关闭此来源。"
+    },
+    {
+      "source": "Crossref",
+      "ok": true,
+      "count": 8
+    },
+    {
+      "source": "NeurIPS",
+      "ok": true,
+      "count": 1
+    }
+  ],
+  "resolved": {
+    "source": "NeurIPS",
+    "item": {
+      "itemType": "conferencePaper",
+      "title": "Memory Mosaics at scale",
+      "creators": [
+        {
+          "firstName": "Jianyu",
+          "lastName": "Zhang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Leon",
+          "lastName": "Bottou",
+          "creatorType": "author"
+        }
+      ],
+      "proceedingsTitle": "Advances in Neural Information Processing Systems",
+      "date": "2025",
+      "volume": "38",
+      "DOI": "10.52202/085713-1299",
+      "pages": "38929–38956",
+      "abstractNote": "Memory Mosaics, networks of associative memories, have demonstrated appealing compositional and in-context learning capabilities on medium-scale networks (GPT-2 scale) and synthetic small datasets. This work shows that these favorable properties remain when we scale memory mosaics to large language model sizes (llama-8B scale) and real-world datasets. To this end, we scale memory mosaics to 10B size, we train them on one trillion tokens, we introduce a couple architectural modifications (memory mosaics v2), we assess their capabilities across three evaluation dimensions: training-knowledge storage, new-knowledge storage, and in-context learning. Throughout the evaluation, memory mosaics v2 match transformers on the learning of training knowledge (first dimension) and significantly outperforms transformers on carrying out new tasks at inference time (second and third dimensions). These improvements cannot be easily replicated by simply increasing the training data for transformers. A memory mosaics v2 trained on one trillion tokens still perform better on these tasks than a transformer trained on eight trillion tokens.",
+      "conferenceName": "NeurIPS 2025",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3767842e2ebee900236f534855aa2c36-Abstract-Conference.html",
+      "libraryCatalog": "NeurIPS Proceedings",
+      "publicationTitle": "Advances in Neural Information Processing Systems",
+      "publisher": "Curran Associates, Inc."
+    },
+    "sourceURL": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3767842e2ebee900236f534855aa2c36-Abstract-Conference.html",
+    "resolved": true,
+    "warnings": [
+      "官方引用记录的年份为 2025，页面发布日期为 2026-04-23。请核对引用日期。"
+    ]
+  },
+  "uiText": "\n    \n      论文元数据检索\n      为 PDF 创建或补充父条目：memory-mosaics\n      \n        论文标题、DOI、arXiv ID 或链接\n        \n          \n          搜索\n          取消\n        \n         高置信匹配后自动补全已有条目的空缺字段；类型和字段冲突由我确认\n        \n           NeurIPS 官方\n           arXiv\n           DBLP\n           Crossref\n        \n      \n      PDF 标题为自动提取建议，可修正后搜索。只将查询文本发送到所选来源。使用文件名标题\n      正式发表版本优先显示；预印本单独保留。PDF 提取的标题可修改；相似度仅用于排序，请核对作者、年份和版本。\n    \n    已选择候选；空缺字段已勾选，已有字段冲突和类型变化由你决定。\n    NeurIPS: 1 条来源记录\n    \n      \n        候选论文 (1)\n        NeurIPS · 正式发表记录Memory Mosaics at scale2025 · 标题相似度 100%Advances in Neural Information Processing Systems\n      \n      \n        元数据预览\n        NeurIPS · 会议论文打开元数据来源官方 BibTeX 获取失败，使用官方页面的嵌入元数据。网络请求失败或超时。连接至服务器时发生错误。请检查网络连接。标题现有：Concurrent edit候选：Memory Mosaics at scale作者现有：Jianyu Zhang; Leon Bottou候选：Jianyu Zhang; Leon Bottou与现有字段一致日期现有：2025候选：2026-04-23DOI现有：10.52202/085713-1299候选：10.52202/085713-1299与现有字段一致论文链接现有：https://proceedings.neurips.cc/paper_files/paper/2025/hash/3767842e2ebee900236f534855aa2c36-Abstract-Conference.html候选：https://proceedings.neurips.cc/paper_files/paper/2025/hash/3767842e2ebee900236f534855aa2c36-Abstract-Conference.html与现有字段一致论文集现有：Advances in Neural Information Processing Systems候选：Advances in Neural Information Processing Systems与现有字段一致会议现有：NeurIPS 2025候选：NeurIPS 2025与现有字段一致卷现有：38候选：38与现有字段一致页码现有：38929–38956候选：38929-38956元数据来源现有：NeurIPS Proceedings候选：NeurIPS Proceedings与现有字段一致摘要现有：User written abstract候选：Memory Mosaics, networks of associative memories, have demonstrated appealing compositional and in-context learning capabilities on medium-scale networks (GPT-2 scale) and synthetic small datasets. This work shows that these favorable properties remain when we scale memory mosaics to large language model sizes (llama-8B scale) and real-world datasets. To this end, we scale memory mosaics to 10B size, we train them on one trillion tokens, we introduce a couple architectural modifications (memory mosaics v2), we assess their capabilities across three evaluation dimensions: training-knowledge storage, new-knowledge storage, and in-context learning. Throughout the evaluation, memory mosaics v2 match transformers on the learning of training knowledge (first dimension) and significantly outperforms transformers on carrying out new tasks at inference time (second and third dimensions). These improvements cannot be easily replicated by simply increasing the training data for transformers. A memory mosaics v2 trained on one trillion tokens still perform better on these tasks than a transformer trained on eight trillion tokens.\n      \n    \n    \n      已有字段和类型冲突默认不勾选。勾选表示允许替换；自动补全只填空缺。\n      更新选中字段\n      关闭\n    \n  ",
+  "screenshot": "<PROJECT_ROOT>\\.runtime-test\\run-20261012-105207\\report.png",
+  "preprintCases": [
+    {
+      "source": "arXiv",
+      "item": {
+        "itemType": "preprint",
+        "title": "From Data Statistics to Feature Geometry: How Correlations Shape Superposition",
+        "date": "2026-03-10",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Lucas",
+            "lastName": "Prieto"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Edward",
+            "lastName": "Stevinson"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Melih",
+            "lastName": "Barsbey"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Tolga",
+            "lastName": "Birdal"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Pedro A. M.",
+            "lastName": "Mediano"
+          }
+        ],
+        "abstractNote": "A central idea in mechanistic interpretability is that neural networks represent more features than they have dimensions, arranging them in superposition to form an over-complete basis. This framing has been influential, motivating dictionary learning approaches such as sparse autoencoders. However, superposition has mostly been studied in idealized settings where features are sparse and uncorrelated. In these settings, superposition is typically understood as introducing interference that must be minimized geometrically and filtered out by non-linearities such as ReLUs, yielding local structures like regular polytopes. We show that this account is incomplete for realistic data by introducing Bag-of-Words Superposition (BOWS), a controlled setting to encode binary bag-of-words representations of internet text in superposition. Using BOWS, we find that when features are correlated, interference can be constructive rather than just noise to be filtered out. This is achieved by arranging features according to their co-activation patterns, making interference between active features constructive, while still using ReLUs to avoid false positives. We show that this kind of arrangement is more prevalent in models trained with weight decay and naturally gives rise to semantic clusters and cyclical structures which have been observed in real language models yet were not explained by the standard picture of superposition. Code for this paper can be found at https://github.com/LucasPrietoAl/correlations-feature-geometry.",
+        "url": "https://arxiv.org/abs/2603.09972v1",
+        "repository": "arXiv",
+        "archiveID": "2603.09972v1",
+        "DOI": "10.48550/arXiv.2603.09972",
+        "libraryCatalog": "arXiv"
+      },
+      "sourceURL": "https://arxiv.org/abs/2603.09972v1",
+      "resolved": true,
+      "score": 1
+    },
+    {
+      "source": "arXiv",
+      "item": {
+        "itemType": "preprint",
+        "title": "From Directions to Regions: Decomposing Activations in Language Models via Local Geometry",
+        "date": "2026-02-02",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Or",
+            "lastName": "Shafran"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Shaked",
+            "lastName": "Ronen"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Omri",
+            "lastName": "Fahn"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Shauli",
+            "lastName": "Ravfogel"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Atticus",
+            "lastName": "Geiger"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Mor",
+            "lastName": "Geva"
+          }
+        ],
+        "abstractNote": "Activation decomposition methods in language models are tightly coupled to geometric assumptions on how concepts are realized in activation space. Existing approaches search for individual global directions, implicitly assuming linear separability, which overlooks concepts with nonlinear or multi-dimensional structure. In this work, we leverage Mixture of Factor Analyzers (MFA) as a scalable, unsupervised alternative that models the activation space as a collection of Gaussian regions with their local covariance structure. MFA decomposes activations into two compositional geometric objects: the region's centroid in activation space, and the local variation from the centroid. We train large-scale MFAs for Llama-3.1-8B and Gemma-2-2B, and show they capture complex, nonlinear structures in activation space. Moreover, evaluations on localization and steering benchmarks show that MFA outperforms unsupervised baselines, is competitive with supervised localization methods, and often achieves stronger steering performance than sparse autoencoders. Together, our findings position local geometry, expressed through subspaces, as a promising unit of analysis for scalable concept discovery and model control, accounting for complex structures that isolated directions fail to capture.",
+        "url": "https://arxiv.org/abs/2602.02464v2",
+        "repository": "arXiv",
+        "archiveID": "2602.02464v2",
+        "DOI": "10.48550/arXiv.2602.02464",
+        "libraryCatalog": "arXiv"
+      },
+      "sourceURL": "https://arxiv.org/abs/2602.02464v2",
+      "resolved": true,
+      "score": 1
+    }
+  ],
+  "pass": true,
+  "packageSHA256": "d6908ff966fc03e9fb3ecaae969c531d2e253e8f038d7c037057d893d76e61a8",
+  "publicationNote": "Historical isolated-test report. Local machine paths are replaced with placeholders; no tests were rerun for this upload."
+}
